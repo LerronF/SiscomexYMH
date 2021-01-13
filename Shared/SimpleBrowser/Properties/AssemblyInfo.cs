@@ -1,36 +1,45 @@
-﻿using System.Reflection;
+﻿// -----------------------------------------------------------------------
+// <copyright file="AssemblyInfo.cs" company="SimpleBrowser">
+// Copyright © 2010 - 2019, Nathan Ridley and the SimpleBrowser contributors.
+// See https://github.com/SimpleBrowserDotNet/SimpleBrowser/blob/master/readme.md
+// </copyright>
+// -----------------------------------------------------------------------
+
+using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// As informações gerais sobre um assembly são controladas por
-// conjunto de atributos. Altere estes valores de atributo para modificar as informações
-// associada a um assembly.
-[assembly: AssemblyTitle("SimpleBrowser")]
+// General Information about an assembly is controlled through the following
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("SimpleBrowser")]
 [assembly: AssemblyProduct("SimpleBrowser")]
-[assembly: AssemblyCopyright("Copyright ©  2021")]
+[assembly: AssemblyCopyright("Copyright © 2010 - 2019, Nathan Ridley and the SimpleBrowser contributors.")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
-// Definir ComVisible como false torna os tipos neste assembly invisíveis
-// para componentes COM. Caso precise acessar um tipo neste assembly de
-// COM, defina o atributo ComVisible como true nesse tipo.
+// Setting ComVisible to false makes the types in this assembly not visible
+// to COM components.  If you need to access a type in this assembly from
+// COM, set the ComVisible attribute to true on that type.
 [assembly: ComVisible(false)]
 
-// O GUID a seguir será destinado à ID de typelib se este projeto for exposto para COM
-[assembly: Guid("70d8fe90-4516-46bf-bf73-4eeebdb6f76b")]
+// The following GUID is for the ID of the typelib if this project is exposed to COM
+[assembly: Guid("532935fe-16c4-4fa2-941e-6089833bf6b1")]
 
-// As informações da versão de um assembly consistem nos quatro valores a seguir:
+//Allow for unit tests
+[assembly: InternalsVisibleTo("SimpleBrowser.UnitTests")]
+
+// Version information for an assembly consists of the following four values:
 //
-//      Versão Principal
-//      Versão Secundária 
-//      Número da Versão
-//      Revisão
+//      Major Version
+//      Minor Version
+//      Build Number
+//      Revision
 //
-// É possível especificar todos os valores ou usar como padrão os Números de Build e da Revisão
-// usando o "*" como mostrado abaixo:
+// You can specify all the values or you can default the Build and Revision Numbers
+// by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
