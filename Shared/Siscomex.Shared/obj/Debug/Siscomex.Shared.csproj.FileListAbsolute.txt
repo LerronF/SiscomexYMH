@@ -12,4 +12,3 @@ C:\iTriad\yamaha\SiscomexYMH\Shared\Siscomex.Shared\obj\Debug\Siscomex.Shared.cs
 C:\iTriad\yamaha\SiscomexYMH\Shared\Siscomex.Shared\obj\Debug\Siscomex.Shared.csproj.CopyComplete
 C:\iTriad\yamaha\SiscomexYMH\Shared\Siscomex.Shared\obj\Debug\Siscomex.Shared.dll
 C:\iTriad\yamaha\SiscomexYMH\Shared\Siscomex.Shared\obj\Debug\Siscomex.Shared.pdb
-C:\iTriad\yamaha\SiscomexYMH\Shared\Siscomex.Shared\obj\Debug\Siscomex.Shared.csprojAssemblyReference.cache

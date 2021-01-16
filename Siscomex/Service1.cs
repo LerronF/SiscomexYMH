@@ -33,7 +33,8 @@ namespace Siscomex
 
         private void CriarLog(object state)
         {
-
+            var lib = new Siscomex.ConsultaPLI.Lib.Work();
+            lib.ExecutarAsync();
 
             StreamWriter vWriter = new StreamWriter(@"C:\Logs\log.txt", true);
             vWriter.WriteLine("serviço rodando:" + DateTime.Now);

@@ -7,11 +7,13 @@ C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Console\bin\Debug\
 C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Console\bin\Debug\Siscomex.ConsultaPLI.Console.exe
 C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Console\bin\Debug\Siscomex.ConsultaPLI.Console.pdb
 C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Console\bin\Debug\Siscomex.ConsultaPLI.Lib.dll
+C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Console\bin\Debug\Topshelf.dll
 C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Console\bin\Debug\SimpleBrowser.dll
 C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Console\bin\Debug\Siscomex.Shared.dll
 C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Console\bin\Debug\WebDriver.dll
 C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Console\bin\Debug\Newtonsoft.Json.dll
 C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Console\bin\Debug\Siscomex.ConsultaPLI.Lib.pdb
+C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Console\bin\Debug\Topshelf.xml
 C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Console\bin\Debug\SimpleBrowser.pdb
 C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Console\bin\Debug\Siscomex.Shared.pdb
 C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Console\bin\Debug\WebDriver.xml

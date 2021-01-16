@@ -7,19 +7,11 @@ using System.Threading.Tasks;
 
 namespace Siscomex
 {
-    static class Program
+    class Program
     {
-        /// <summary>
-        /// Ponto de entrada principal para o aplicativo.
-        /// </summary>
-        static void Main()
+        static void Main(string[] args)
         {
-            ServiceBase[] ServicesToRun;
-            ServicesToRun = new ServiceBase[]
-            {
-                new Service1()
-            };
-            ServiceBase.Run(ServicesToRun);
+            ConfigureService.Configure();
         }
     }
 }
