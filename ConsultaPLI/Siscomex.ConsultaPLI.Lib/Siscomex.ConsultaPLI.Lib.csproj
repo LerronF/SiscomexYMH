@@ -87,11 +87,18 @@
       <Link>phantomjs.exe</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="chromedriver.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="phantomjs-license.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Shared\SimpleBrowser-master\SimpleBrowser\SimpleBrowser.csproj">
+      <Project>{6cdf9a0c-48a7-4f94-917e-d90659414123}</Project>
+      <Name>SimpleBrowser</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\Shared\Siscomex.Shared\Siscomex.Shared.csproj">
       <Project>{a7253b8b-2b72-4993-b14c-d09c3cd83fb6}</Project>
       <Name>Siscomex.Shared</Name>

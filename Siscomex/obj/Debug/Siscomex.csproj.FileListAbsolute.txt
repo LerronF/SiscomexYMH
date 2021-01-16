@@ -10,6 +10,7 @@ C:\iTriad\yamaha\Siscomex\Siscomex\obj\Debug\Siscomex.pdb
 C:\iTriad\yamaha\SiscomexYMH\Siscomex\bin\Debug\Siscomex.exe.config
 C:\iTriad\yamaha\SiscomexYMH\Siscomex\bin\Debug\Siscomex.exe
 C:\iTriad\yamaha\SiscomexYMH\Siscomex\bin\Debug\Siscomex.pdb
+C:\iTriad\yamaha\SiscomexYMH\Siscomex\obj\Debug\Siscomex.csprojAssemblyReference.cache
 C:\iTriad\yamaha\SiscomexYMH\Siscomex\obj\Debug\Siscomex.ProjectInstaller.resources
 C:\iTriad\yamaha\SiscomexYMH\Siscomex\obj\Debug\Siscomex.csproj.GenerateResource.cache
 C:\iTriad\yamaha\SiscomexYMH\Siscomex\obj\Debug\Siscomex.csproj.CoreCompileInputs.cache

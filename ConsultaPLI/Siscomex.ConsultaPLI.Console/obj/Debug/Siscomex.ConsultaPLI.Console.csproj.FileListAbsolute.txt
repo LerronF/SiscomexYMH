@@ -1,19 +1,24 @@
+C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Console\bin\Debug\chromedriver.exe
 C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Console\bin\Debug\phantomjs.exe
 C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Console\bin\Debug\phantomjs-license.txt
 C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Console\bin\Debug\Certificado\Randerson A1 2020-2021.pfx
 C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Console\bin\Debug\Certificado\randerson.cer
 C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Console\bin\Debug\Certificado\randerson.key
-C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Console\bin\Debug\Siscomex.ConsultaPLI.Console.exe.config
-C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Console\bin\Debug\Siscomex.ConsultaPLI.Console.exe
-C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Console\bin\Debug\Siscomex.ConsultaPLI.Console.pdb
 C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Console\bin\Debug\Siscomex.ConsultaPLI.Lib.dll
 C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Console\bin\Debug\WebDriver.dll
+C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Console\bin\Debug\SimpleBrowser.dll
 C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Console\bin\Debug\Siscomex.Shared.dll
+C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Console\bin\Debug\Newtonsoft.Json.dll
 C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Console\bin\Debug\Siscomex.ConsultaPLI.Lib.pdb
 C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Console\bin\Debug\WebDriver.xml
+C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Console\bin\Debug\SimpleBrowser.pdb
 C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Console\bin\Debug\Siscomex.Shared.pdb
+C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Console\bin\Debug\Newtonsoft.Json.xml
 C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Console\obj\Debug\Siscomex.ConsultaPLI.Console.csprojAssemblyReference.cache
 C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Console\obj\Debug\Siscomex.ConsultaPLI.Console.csproj.CoreCompileInputs.cache
 C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Console\obj\Debug\Siscomex.ConsultaPLI.Console.csproj.CopyComplete
 C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Console\obj\Debug\Siscomex.ConsultaPLI.Console.exe
 C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Console\obj\Debug\Siscomex.ConsultaPLI.Console.pdb
+C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Console\bin\Debug\Siscomex.ConsultaPLI.Console.exe.config
+C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Console\bin\Debug\Siscomex.ConsultaPLI.Console.exe
+C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Console\bin\Debug\Siscomex.ConsultaPLI.Console.pdb

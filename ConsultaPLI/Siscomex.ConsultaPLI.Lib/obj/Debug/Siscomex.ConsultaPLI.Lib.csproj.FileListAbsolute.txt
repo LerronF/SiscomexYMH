@@ -3,12 +3,14 @@ C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Lib\bin\Debug\phan
 C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Lib\bin\Debug\Certificado\Randerson A1 2020-2021.pfx
 C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Lib\bin\Debug\Certificado\randerson.cer
 C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Lib\bin\Debug\Certificado\randerson.key
+C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Lib\bin\Debug\chromedriver.exe
 C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Lib\bin\Debug\Siscomex.ConsultaPLI.Lib.dll
 C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Lib\bin\Debug\Siscomex.ConsultaPLI.Lib.pdb
 C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Lib\bin\Debug\Microsoft.Extensions.Primitives.dll
 C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Lib\bin\Debug\Microsoft.Net.Http.Headers.dll
 C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Lib\bin\Debug\Newtonsoft.Json.dll
 C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Lib\bin\Debug\Selenium.Utils.dll
+C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Lib\bin\Debug\SimpleBrowser.dll
 C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Lib\bin\Debug\Siscomex.Shared.dll
 C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Lib\bin\Debug\System.Buffers.dll
 C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Lib\bin\Debug\System.Memory.dll
@@ -17,6 +19,7 @@ C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Lib\bin\Debug\Syst
 C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Lib\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
 C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Lib\bin\Debug\WebDriver.dll
 C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Lib\bin\Debug\WebDriver.Support.dll
+C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Lib\bin\Debug\SimpleBrowser.pdb
 C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Lib\bin\Debug\Siscomex.Shared.pdb
 C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Lib\bin\Debug\Microsoft.Extensions.Primitives.xml
 C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Lib\bin\Debug\Microsoft.Net.Http.Headers.xml
