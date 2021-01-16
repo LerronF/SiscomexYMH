@@ -3,7 +3,6 @@ C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Lib\bin\Debug\phan
 C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Lib\bin\Debug\Certificado\Randerson A1 2020-2021.pfx
 C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Lib\bin\Debug\Certificado\randerson.cer
 C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Lib\bin\Debug\Certificado\randerson.key
-C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Lib\bin\Debug\chromedriver.exe
 C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Lib\bin\Debug\Siscomex.ConsultaPLI.Lib.dll
 C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Lib\bin\Debug\Siscomex.ConsultaPLI.Lib.pdb
 C:\iTriad\yamaha\SiscomexYMH\ConsultaPLI\Siscomex.ConsultaPLI.Lib\bin\Debug\Microsoft.Extensions.Primitives.dll

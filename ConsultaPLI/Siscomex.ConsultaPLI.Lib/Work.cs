@@ -19,10 +19,6 @@ namespace Siscomex.ConsultaPLI.Lib
         public string _urlConsultaPLI = @"https://www1c.siscomex.receita.fazenda.gov.br/li_web-7/liweb_menu_li_consultar_lote_li.do";
         public string _arquivo = @"C:\iTriad\yamaha\testes\CONS_LI_SISCOMEX.xml";
 
-        int aux = 0;
-
-        ChromeOptions options = null;
-
         #endregion
 
         public Work()
@@ -37,148 +33,13 @@ namespace Siscomex.ConsultaPLI.Lib
 
         private async Task CarregarListaPLIAsync()
         {
-            //options = new ChromeOptions();
+            LogController.RegistrarLog($"Iniciando Automação....");
 
-            //var downloadDirectory = @"C:\iTriad\yamaha\prints";
+            _ = Acessar();
 
-            //options.AddArguments("ignore-certificate-errors", "ignore-urlfetcher-cert-requests");
-            //options.AddUserProfilePreference("download.default_directory", downloadDirectory);
-            //options.AddUserProfilePreference("download.prompt_for_download", false);
-            //options.AddUserProfilePreference("disable-popup-blocking", true);
-            //options.AddUserProfilePreference("safebrowsing.enabled", "false");
-            ////options.AddArguments("headless");
-            ////options.AddArgument("--start-maximized");
-            //options.AddArgument("test-type");
-            //options.AddArgument("no-sandbox");
-            //options.AddArgument(Directory.GetCurrentDirectory() + @"\chromedriver.exe");
-
-            using (var service = PhantomJSDriverService.CreateDefaultService(Directory.GetCurrentDirectory()))
-            {
-                LogController.RegistrarLog("Carregando certificado...");
-                ControleCertificados.CarregarCertificado(service);
-               
-                service.AddArgument("test-type");
-                service.AddArgument("no-sandbox");
-                service.HideCommandPromptWindow = true;
-
-                //var _driverCH = new ChromeDriver(options);
-
-                using (var _driver = new PhantomJSDriver(service))
-                //using (var _driver = new ChromeDriver(options))
-            {
-                    try
-                    {
-                        
-                        Acessar(_driver);
-
-                        LogController.RegistrarLog($"Execução concluída.");
-                    }
-                    catch (Exception)
-                    {
-                        _driver.Close();
-                    }
-                }
-            }
         }
 
-        private async Task Acessar(PhantomJSDriver _driver)
-        {
-            try
-            {
-                //LogController.RegistrarLog("Acessando URL...");
-
-                //_driver.Navigate().GoToUrl(_urlSite);
-                //Thread.Sleep(500);
-                //var retorno = capturaImagem(_driver, aux.ToString());
-                //aux++;
-
-                //LogController.RegistrarLog("Acessando ÁREA DE CONSULTA DO PLI...");
-                //_driver.Navigate().GoToUrl(_urlConsultaPLI);
-                //Thread.Sleep(500);
-                //retorno = capturaImagem(_driver, aux.ToString());
-                //aux++;
-
-                ////#arquivo
-
-                //LogController.RegistrarLog($"SELECIONANDO ARQUIVO .XML PARA ENVIO...");
-                //OpenQA.Selenium.IWebElement element = _driver.FindElementByCssSelector("#arquivo");
-                //element.SendKeys(_arquivo);
-                //Thread.Sleep(900);
-                //retorno = capturaImagem(_driver, aux.ToString());
-                //aux++;
-
-                //LogController.RegistrarLog($"CLICK NO BOTÃO ENVIAR....");
-                //element = _driver.FindElementByCssSelector("#enviarArquivo");
-                ////element.Submit();
-
-
-
-                DownloadXML(@"https://www1c.siscomex.receita.fazenda.gov.br/li_web-7/liweb_menu_li_download_xsd_consulta_lote.do?");
-
-               
-
-                //LogController.RegistrarLog($"CLICK NO BOTÃO ENVIAR....");
-                //element = _driver.FindElementByCssSelector("#enviarArquivo");
-                //element.Submit();
-                //Thread.Sleep(900);
-                //var horaData = DateTime.Now.ToString().Replace("/", "").Replace(":", "").Replace(" ", "");
-                //string arquivoPath = Path.Combine(@"C:\iTriad\yamaha\prints" + "\\", horaData + "-Extrato.xml");
-
-                //File.WriteAllBytes(arquivoPath, ConvertToByteArray(_driver.PageSource));
-
-                //retorno = capturaImagem(_driver, aux.ToString());
-                //aux++;
-
-            }
-            catch
-            {
-                LogController.RegistrarLog($"Fim da Consulta");
-                _driver.Close();
-            }
-        }
-
-        public void Screenshot(IWebDriver driver, string screenshotsPasta)
-        {
-            ITakesScreenshot camera = driver as ITakesScreenshot;
-            Screenshot foto = camera.GetScreenshot();
-            foto.SaveAsFile(screenshotsPasta, ScreenshotImageFormat.Png);
-        }
-
-        public bool capturaImagem(PhantomJSDriver _driver, string numero)
-        {
-            try
-            {
-                //FUTURAMENTE ESSE CAMINHO SERÁ CONFIGURADO EM UMA TABELA
-                if (!System.IO.Directory.Exists(@"C:\iTriad\yamaha\prints\"))
-                {
-                    System.IO.Directory.CreateDirectory(@"C:\iTriad\yamaha\prints\");
-                }
-
-                string arquivoPath = Path.Combine(@"C:\iTriad\yamaha\prints\", numero + "-PLI.jpg");
-
-                Screenshot(_driver, arquivoPath);
-                Thread.Sleep(1000);
-
-                FileInfo fileInfo = new FileInfo(arquivoPath);
-                var tam = fileInfo.Length;
-                if (fileInfo.Length <= 0)
-                {
-                    File.Delete(arquivoPath);
-
-                    return false;
-                }
-                else
-                {
-                    return true;
-                }
-            }
-            catch (Exception)
-            {
-                return false;
-            }
-        }
-
-        protected bool DownloadXML(string _url)
+        private async Task Acessar()
         {
             try
             {
@@ -188,6 +49,7 @@ namespace Siscomex.ConsultaPLI.Lib
 
                 while (tentarNovamente)
                 {
+                    LogController.RegistrarLog($"Carregando Certificado...");
                     var certificado = ControleCertificados.GetClientCertificate();
                     using (var driver = new SimpleBrowser.WebDriver.SimpleBrowserDriver(certificado))
                     {
@@ -205,12 +67,20 @@ namespace Siscomex.ConsultaPLI.Lib
                         if (!File.Exists(arquivoPath))
                         {
                             driver._my.Navigate(_urlSite);
+                            LogController.RegistrarLog($"Autenticando...");
+
                             driver._my.Navigate(_urlConsultaPLI);
+                            LogController.RegistrarLog($"Acessando SISCOMEX...");
+
                             driver.FindElement(By.CssSelector("#arquivo")).SendKeys(_arquivo);
+                            LogController.RegistrarLog($"Consultado PLI...");
+
                             driver.FindElement(By.CssSelector("#enviarArquivo")).Submit();
+                            LogController.RegistrarLog($"Enviando Consulta...");
 
-                            Thread.Sleep(5000);
+                            Thread.Sleep(2000);
 
+                            LogController.RegistrarLog($"Download do arquivo de consulta do PLI...");
                             File.WriteAllBytes(arquivoPath, ConvertToByteArray(driver.PageSource));
                         }
                     }
@@ -225,7 +95,7 @@ namespace Siscomex.ConsultaPLI.Lib
                     {
                         if (tentativas <= 5)
                         {
-                            LogController.RegistrarLog(tentativas + "º Tentativa de Baixar o Extrato - XML.");
+                            LogController.RegistrarLog(tentativas + "º Tentativa de Baixar o - XML.");
                             tentativas++;
                         }
                         else
@@ -240,20 +110,11 @@ namespace Siscomex.ConsultaPLI.Lib
                 if (fileInfo.Length <= 0)
                 {
                     File.Delete(arquivoPath);
-
-                    return false;
-
-                }
-                else
-                {
-                    return true;
                 }
             }
             catch (Exception e)
             {
-                LogController.RegistrarLog("Erro ao Baixar Extrato XML " + e.Message.Trim());
-
-                return false;
+                LogController.RegistrarLog("Erro ao Baixar XML " + e.Message.Trim());
             }
         }
 
