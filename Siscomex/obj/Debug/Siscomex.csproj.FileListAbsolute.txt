@@ -9,9 +9,6 @@ C:\iTriad\yamaha\Siscomex\Siscomex\obj\Debug\Siscomex.exe
 C:\iTriad\yamaha\Siscomex\Siscomex\obj\Debug\Siscomex.pdb
 C:\iTriad\yamaha\SiscomexYMH\Siscomex\bin\Debug\phantomjs.exe
 C:\iTriad\yamaha\SiscomexYMH\Siscomex\bin\Debug\phantomjs-license.txt
-C:\iTriad\yamaha\SiscomexYMH\Siscomex\bin\Debug\Certificado\Randerson A1 2020-2021.pfx
-C:\iTriad\yamaha\SiscomexYMH\Siscomex\bin\Debug\Certificado\randerson.cer
-C:\iTriad\yamaha\SiscomexYMH\Siscomex\bin\Debug\Certificado\randerson.key
 C:\iTriad\yamaha\SiscomexYMH\Siscomex\bin\Debug\Siscomex.exe.config
 C:\iTriad\yamaha\SiscomexYMH\Siscomex\bin\Debug\Siscomex.exe
 C:\iTriad\yamaha\SiscomexYMH\Siscomex\bin\Debug\Siscomex.pdb
