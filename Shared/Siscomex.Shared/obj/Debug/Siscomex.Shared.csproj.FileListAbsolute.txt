@@ -13,3 +13,18 @@ C:\iTriad\yamaha\SiscomexYMH\Shared\Siscomex.Shared\obj\Debug\Siscomex.Shared.cs
 C:\iTriad\yamaha\SiscomexYMH\Shared\Siscomex.Shared\obj\Debug\Siscomex.Shared.dll
 C:\iTriad\yamaha\SiscomexYMH\Shared\Siscomex.Shared\obj\Debug\Siscomex.Shared.pdb
 C:\iTriad\yamaha\SiscomexYMH\Shared\Siscomex.Shared\obj\Debug\Siscomex.Shared.csprojAssemblyReference.cache
+C:\iTriad\SiscomexYMH\Shared\Siscomex.Shared\bin\Debug\Certificado\Randerson A1 2020-2021.pfx
+C:\iTriad\SiscomexYMH\Shared\Siscomex.Shared\bin\Debug\Certificado\randerson.cer
+C:\iTriad\SiscomexYMH\Shared\Siscomex.Shared\bin\Debug\Certificado\randerson.key
+C:\iTriad\SiscomexYMH\Shared\Siscomex.Shared\bin\Debug\Siscomex.Shared.dll
+C:\iTriad\SiscomexYMH\Shared\Siscomex.Shared\bin\Debug\Siscomex.Shared.pdb
+C:\iTriad\SiscomexYMH\Shared\Siscomex.Shared\bin\Debug\Selenium.Utils.dll
+C:\iTriad\SiscomexYMH\Shared\Siscomex.Shared\bin\Debug\WebDriver.dll
+C:\iTriad\SiscomexYMH\Shared\Siscomex.Shared\bin\Debug\WebDriver.Support.dll
+C:\iTriad\SiscomexYMH\Shared\Siscomex.Shared\bin\Debug\WebDriver.xml
+C:\iTriad\SiscomexYMH\Shared\Siscomex.Shared\bin\Debug\WebDriver.Support.xml
+C:\iTriad\SiscomexYMH\Shared\Siscomex.Shared\obj\Debug\Siscomex.Shared.csprojAssemblyReference.cache
+C:\iTriad\SiscomexYMH\Shared\Siscomex.Shared\obj\Debug\Siscomex.Shared.csproj.CoreCompileInputs.cache
+C:\iTriad\SiscomexYMH\Shared\Siscomex.Shared\obj\Debug\Siscomex.Shared.csproj.CopyComplete
+C:\iTriad\SiscomexYMH\Shared\Siscomex.Shared\obj\Debug\Siscomex.Shared.dll
+C:\iTriad\SiscomexYMH\Shared\Siscomex.Shared\obj\Debug\Siscomex.Shared.pdb
