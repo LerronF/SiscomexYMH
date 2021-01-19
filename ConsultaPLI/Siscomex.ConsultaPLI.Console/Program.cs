@@ -9,10 +9,10 @@ namespace Siscomex.ConsultaPLI.Console
         {
             Consumer.DownloadFile();
 
-            Publisher.UploadFile();           
+            var lib = new Siscomex.ConsultaPLI.Lib.Work();
+            _ = lib.ExecutarAsync();
 
-            //var lib = new Siscomex.ConsultaPLI.Lib.Work();
-            //_ = lib.ExecutarAsync();
+            Publisher.UploadFile();
         }
     }
 }
