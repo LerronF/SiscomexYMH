@@ -19,12 +19,12 @@ namespace Siscomex
             var horaData = DateTime.Now.ToString().Replace("/", "").Replace(":", "").Replace(" ", "");
             var aux = CapturaArquivo();
 
-            if (!System.IO.Directory.Exists(@"C:\TFS\" + horaData + "\\"))
+            if (!System.IO.Directory.Exists(@"C:\iTriad\yamaha\Download\"))
             {
-                System.IO.Directory.CreateDirectory(@"C:\TFS\" + horaData + "\\");
+                System.IO.Directory.CreateDirectory(@"C:\iTriad\yamaha\Download\");
             }
 
-            string arquivoPath = Path.Combine(@"C:\TFS\", horaData + "-PLI.xml");
+            string arquivoPath = Path.Combine(@"C:\iTriad\yamaha\Download\", horaData + "-PLI.xml");
 
             using (StreamWriter sw = File.CreateText(arquivoPath))
             {

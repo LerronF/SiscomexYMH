@@ -2,6 +2,7 @@
 using RabbitMQ.Client.Events;
 using RabbitMQ.Client.Exceptions;
 using System;
+using System.IO;
 using System.Text;
 using System.Threading;
 using System.Xml;
@@ -12,12 +13,26 @@ namespace Siscomex
     {
         public static void UploadFile()
         {
+            string[] Arquivos = Directory.GetFiles(@"C:\iTriad\yamaha\Upload", "*.xml");
             XmlDocument doc = new XmlDocument();
-            doc.Load(@"C:\iTriad\yamaha\prints\18012021204810-Extrato.xml");
 
-            var texto = doc.InnerXml;
+            foreach (var file in Arquivos)
+            {
+                doc.Load(file);
 
-            EnviaArquivo(texto);
+                var texto = doc.InnerXml;
+
+                bool upload = EnviaArquivo(texto);
+
+                if (!upload)
+                {
+                    Console.WriteLine("Arquivo " + file + " não enviado !");
+                }
+                else
+                {
+                    File.Delete(file);
+                }
+            }
         }
 
         public static bool EnviaArquivo(string texto)
