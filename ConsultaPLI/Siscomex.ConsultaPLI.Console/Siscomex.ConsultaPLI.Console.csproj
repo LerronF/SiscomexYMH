@@ -53,16 +53,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ConfigureService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SiscomexWS.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Siscomex\Siscomex.csproj">
+      <Project>{28e4dd8c-3851-4dfa-8568-67d72cd8039b}</Project>
+      <Name>Siscomex</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Siscomex.ConsultaPLI.Lib\Siscomex.ConsultaPLI.Lib.csproj">
       <Project>{9037d6ef-0483-4035-a8b0-1fc25bb91623}</Project>
       <Name>Siscomex.ConsultaPLI.Lib</Name>

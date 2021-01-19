@@ -23,8 +23,8 @@ C:\iTriad\SiscomexYMH\Shared\Siscomex.Shared\bin\Debug\WebDriver.dll
 C:\iTriad\SiscomexYMH\Shared\Siscomex.Shared\bin\Debug\WebDriver.Support.dll
 C:\iTriad\SiscomexYMH\Shared\Siscomex.Shared\bin\Debug\WebDriver.xml
 C:\iTriad\SiscomexYMH\Shared\Siscomex.Shared\bin\Debug\WebDriver.Support.xml
-C:\iTriad\SiscomexYMH\Shared\Siscomex.Shared\obj\Debug\Siscomex.Shared.csprojAssemblyReference.cache
 C:\iTriad\SiscomexYMH\Shared\Siscomex.Shared\obj\Debug\Siscomex.Shared.csproj.CoreCompileInputs.cache
 C:\iTriad\SiscomexYMH\Shared\Siscomex.Shared\obj\Debug\Siscomex.Shared.csproj.CopyComplete
 C:\iTriad\SiscomexYMH\Shared\Siscomex.Shared\obj\Debug\Siscomex.Shared.dll
 C:\iTriad\SiscomexYMH\Shared\Siscomex.Shared\obj\Debug\Siscomex.Shared.pdb
+C:\iTriad\SiscomexYMH\Shared\Siscomex.Shared\obj\Debug\Siscomex.Shared.csprojAssemblyReference.cache

@@ -7,7 +7,12 @@ namespace Siscomex.ConsultaPLI.Console
     {
         static void Main(string[] args)
         {
-            ConfigureService.Configure();
+            Consumer.DownloadFile();
+
+            Publisher.UploadFile();           
+
+            //var lib = new Siscomex.ConsultaPLI.Lib.Work();
+            //_ = lib.ExecutarAsync();
         }
     }
 }
