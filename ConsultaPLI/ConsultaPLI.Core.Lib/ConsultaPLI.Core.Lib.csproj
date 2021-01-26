@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Shared\SimpleBrowser-master\SimpleBrowser\SimpleBrowser.csproj" />
+    <ProjectReference Include="..\..\Shared\SimpleBrowser.Core\SimpleBrowser.Core.csproj" />
     <ProjectReference Include="..\..\Shared\Siscomex.Core.Shared\Siscomex.Core.Shared.csproj" />
   </ItemGroup>
 

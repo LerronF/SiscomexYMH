@@ -52,7 +52,7 @@ namespace ConsultaPLI.Core.Lib
                     {
                         LogController.RegistrarLog($"Carregando Certificado...");
                         var certificado = ControleCertificados.GetClientCertificate();
-                        using (var driver = new SimpleBrowser.WebDriver.SimpleBrowserDriver(certificado))
+                        using (var driver = new SimpleBrowser.Core.WebDriver.SimpleBrowserDriver(certificado))
                         {
                             var horaData = DateTime.Now.ToString().Replace("/", "").Replace(":", "").Replace(" ", "");
 

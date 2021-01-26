@@ -11,7 +11,7 @@ namespace Siscomex.Core
         {
             //Coloque aqui o código que executa quando o Serviço do Windows Iniciar
             var timer1 = new Timer();
-            timer1.Interval = 10000; //a cada 10 segundos
+            timer1.Interval = 100000; //a cada 10 segundos
             timer1.Elapsed += new System.Timers.ElapsedEventHandler(timer1_Tick);
             timer1.Enabled = true;
             Console.WriteLine("Meu Serviço do Windows foi inicado");
