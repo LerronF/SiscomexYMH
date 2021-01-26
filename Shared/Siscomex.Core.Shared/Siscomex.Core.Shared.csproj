@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Selenium.Support" Version="3.4.0" />
+    <PackageReference Include="Selenium.Utils" Version="1.0.0" />
+    <PackageReference Include="Selenium.WebDriver" Version="3.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Certificado\Randerson A1 2020-2021.pfx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Certificado\randerson.cer">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Certificado\randerson.key">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
