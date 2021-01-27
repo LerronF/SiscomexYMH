@@ -11,25 +11,32 @@ namespace Siscomex.Core
     {
         public static void UploadFile()
         {
-            string[] Arquivos = Directory.GetFiles(@"C:\iTriad\yamaha\Upload", "*.xml");
-            XmlDocument doc = new XmlDocument();
-
-            foreach (var file in Arquivos)
+            try
             {
-                doc.Load(file);
+                string[] Arquivos = Directory.GetFiles(@"/app/upload", "*.xml");
+                XmlDocument doc = new XmlDocument();
 
-                var texto = doc.InnerXml;
-
-                bool upload = EnviaArquivo(texto);
-
-                if (!upload)
+                foreach (var file in Arquivos)
                 {
-                    Console.WriteLine("Arquivo " + file + " não enviado !");
+                    doc.Load(file);
+
+                    var texto = doc.InnerXml;
+
+                    bool upload = EnviaArquivo(texto);
+
+                    if (!upload)
+                    {
+                        Console.WriteLine("Arquivo " + file + " não enviado !");
+                    }
+                    else
+                    {
+                        File.Delete(file);
+                    }
                 }
-                else
-                {
-                    File.Delete(file);
-                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Erro no upload: " + ex.Message.Trim());
             }
         }
 
