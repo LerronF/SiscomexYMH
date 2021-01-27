@@ -15,12 +15,12 @@ namespace Siscomex.Core
                 var horaData = DateTime.Now.ToString().Replace("/", "").Replace(":", "").Replace(" ", "");
                 var aux = CapturaArquivo();
 
-                if (!System.IO.Directory.Exists(@"/app/download/"))
+                if (!System.IO.Directory.Exists(@"/home/download/"))
                 {
-                    System.IO.Directory.CreateDirectory(@"/app/download/");
+                    System.IO.Directory.CreateDirectory(@"/home/download/");
                 }
 
-                string arquivoPath = Path.Combine(@"/app/download/", horaData + "-PLI.xml");
+                string arquivoPath = Path.Combine(@"/home/download/", horaData + "-PLI.xml");
 
                 using (StreamWriter sw = File.CreateText(arquivoPath))
                 {

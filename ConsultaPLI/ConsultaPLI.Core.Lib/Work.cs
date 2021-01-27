@@ -38,7 +38,7 @@ namespace ConsultaPLI.Core.Lib
 
         private async Task Acessar()
         {
-            string[] Arquivos = Directory.GetFiles(@"/app/download", "*.xml");
+            string[] Arquivos = Directory.GetFiles(@"/home/download", "*.xml");
 
             foreach (var file in Arquivos)
             {
@@ -57,12 +57,12 @@ namespace ConsultaPLI.Core.Lib
                             var horaData = DateTime.Now.ToString().Replace("/", "").Replace(":", "").Replace(" ", "");
 
                             //FUTURAMENTE ESSE CAMINHO SERÁ CONFIGURADO EM UMA TABELA
-                            if (!System.IO.Directory.Exists(@"/app/upload/"))
+                            if (!System.IO.Directory.Exists(@"/home/upload/"))
                             {
-                                System.IO.Directory.CreateDirectory(@"/app/upload/");
+                                System.IO.Directory.CreateDirectory(@"/home/upload/");
                             }
 
-                            arquivoPath = Path.Combine(@"/app/upload/", horaData + "-Extrato.xml");
+                            arquivoPath = Path.Combine(@"/home/upload/", horaData + "-Extrato.xml");
 
                             if (!File.Exists(arquivoPath))
                             {
