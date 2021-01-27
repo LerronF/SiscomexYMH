@@ -27,7 +27,11 @@ namespace Siscomex.Core
                     sw.WriteLine(aux);
                 }
             }
+<<<<<<< HEAD
             catch (Exception ex )
+=======
+            catch (Exception ex)
+>>>>>>> dev
             {
                 Console.WriteLine("Erro no download: " + ex.Message.Trim());
             }
