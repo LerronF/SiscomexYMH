@@ -10,19 +10,26 @@ namespace Siscomex.Core
     {
         public static void DownloadFile()
         {
-            var horaData = DateTime.Now.ToString().Replace("/", "").Replace(":", "").Replace(" ", "");
-            var aux = CapturaArquivo();
-
-            if (!System.IO.Directory.Exists(@"C:\iTriad\yamaha\Download\"))
+            try
             {
-                System.IO.Directory.CreateDirectory(@"C:\iTriad\yamaha\Download\");
+                var horaData = DateTime.Now.ToString().Replace("/", "").Replace(":", "").Replace(" ", "");
+                var aux = CapturaArquivo();
+
+                if (!System.IO.Directory.Exists(@"/app/download/"))
+                {
+                    System.IO.Directory.CreateDirectory(@"/app/download/");
+                }
+
+                string arquivoPath = Path.Combine(@"/app/download/", horaData + "-PLI.xml");
+
+                using (StreamWriter sw = File.CreateText(arquivoPath))
+                {
+                    sw.WriteLine(aux);
+                }
             }
-
-            string arquivoPath = Path.Combine(@"C:\iTriad\yamaha\Download\", horaData + "-PLI.xml");
-
-            using (StreamWriter sw = File.CreateText(arquivoPath))
+            catch (Exception ex)
             {
-                sw.WriteLine(aux);
+                Console.WriteLine("Erro no download: " + ex.Message.Trim());
             }
         }
 

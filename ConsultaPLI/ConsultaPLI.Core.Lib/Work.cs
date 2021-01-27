@@ -20,7 +20,7 @@ namespace ConsultaPLI.Core.Lib
 
         public Work()
         {
-            LogController.RegistrarLog("#################  INICIALIZANDO - CE MERCANTE  ################# ");
+            LogController.RegistrarLog("#################  INICIALIZANDO - SISCOMEX  ################# ");
         }
 
         public async Task ExecutarAsync()
@@ -38,7 +38,7 @@ namespace ConsultaPLI.Core.Lib
 
         private async Task Acessar()
         {
-            string[] Arquivos = Directory.GetFiles(@"C:\iTriad\yamaha\Download", "*.xml");
+            string[] Arquivos = Directory.GetFiles(@"/app/download", "*.xml");
 
             foreach (var file in Arquivos)
             {
@@ -57,12 +57,12 @@ namespace ConsultaPLI.Core.Lib
                             var horaData = DateTime.Now.ToString().Replace("/", "").Replace(":", "").Replace(" ", "");
 
                             //FUTURAMENTE ESSE CAMINHO SERÁ CONFIGURADO EM UMA TABELA
-                            if (!System.IO.Directory.Exists(@"C:\iTriad\yamaha\upload\"))
+                            if (!System.IO.Directory.Exists(@"/app/upload/"))
                             {
-                                System.IO.Directory.CreateDirectory(@"C:\iTriad\yamaha\upload\");
+                                System.IO.Directory.CreateDirectory(@"/app/upload/");
                             }
 
-                            arquivoPath = Path.Combine(@"C:\iTriad\yamaha\upload\", horaData + "-Extrato.xml");
+                            arquivoPath = Path.Combine(@"/app/upload/", horaData + "-Extrato.xml");
 
                             if (!File.Exists(arquivoPath))
                             {
