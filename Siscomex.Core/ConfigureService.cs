@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Runtime.InteropServices;
 using System.Text;
 using Topshelf;
+using Topshelf.Runtime.DotNetCore;
 
 namespace Siscomex.Core
 {
@@ -11,6 +13,14 @@ namespace Siscomex.Core
         {
             HostFactory.Run(configure =>
             {
+                if (RuntimeInformation.IsOSPlatform(OSPlatform.OSX) ||
+                    RuntimeInformation.IsOSPlatform(OSPlatform.Linux))
+                {
+                    configure.UseEnvironmentBuilder(
+                      target => new DotNetCoreEnvironmentBuilder(target)
+                    );
+                }
+
                 configure.Service<SiscomexWS>(service =>
                 {
                     service.ConstructUsing(s => new SiscomexWS());
