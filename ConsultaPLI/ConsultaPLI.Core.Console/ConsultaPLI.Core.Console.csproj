@@ -3,9 +3,18 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <EnableNETAnalyzers>true</EnableNETAnalyzers>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/gsoft-inc/dotnet-certificate-tool</RepositoryUrl>
+    <PackageTags>dotnet;cli;tool;certificate;</PackageTags>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <WarningLevel>5</WarningLevel>
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Shared\dotnet-certificate-tool\src\GSoft.CertificateTool.csproj" />
     <ProjectReference Include="..\..\Siscomex.Core\Siscomex.Core.csproj" />
     <ProjectReference Include="..\ConsultaPLI.Core.Lib\ConsultaPLI.Core.Lib.csproj" />
   </ItemGroup>

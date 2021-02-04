@@ -50,7 +50,8 @@ namespace ConsultaPLI.Core.Lib
 
                     while (tentarNovamente)
                     {
-                        LogController.RegistrarLog($"Carregando Certificado...");
+                        LogController.RegistrarLog($"Carregando Certificado...");                        
+
                         var certificado = ControleCertificados.GetClientCertificate();
                         using (var driver = new SimpleBrowser.Core.WebDriver.SimpleBrowserDriver(certificado))
                         {

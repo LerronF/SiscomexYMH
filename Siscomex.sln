@@ -19,6 +19,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleBrowser.Core", "Share
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleBrowser.Core.WebDriver", "Shared\SimpleBrowser.Core.WebDriver\SimpleBrowser.Core.WebDriver.csproj", "{23E9065C-8F17-430D-8CCB-BC3454B00F3D}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GSoft.CertificateTool", "Shared\dotnet-certificate-tool\src\GSoft.CertificateTool.csproj", "{EF8463D2-61AC-4598-BFD3-DD01178B6E47}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +51,10 @@ Global
 		{23E9065C-8F17-430D-8CCB-BC3454B00F3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23E9065C-8F17-430D-8CCB-BC3454B00F3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23E9065C-8F17-430D-8CCB-BC3454B00F3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF8463D2-61AC-4598-BFD3-DD01178B6E47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF8463D2-61AC-4598-BFD3-DD01178B6E47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF8463D2-61AC-4598-BFD3-DD01178B6E47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF8463D2-61AC-4598-BFD3-DD01178B6E47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,6 +65,7 @@ Global
 		{F10B3022-4AE1-4D6D-AF74-632A47ECA8C2} = {91D15DFE-E579-4060-9349-2A04F8B1A5E0}
 		{D1710ACE-1530-4ABD-B233-5B077A4C7046} = {91D15DFE-E579-4060-9349-2A04F8B1A5E0}
 		{23E9065C-8F17-430D-8CCB-BC3454B00F3D} = {91D15DFE-E579-4060-9349-2A04F8B1A5E0}
+		{EF8463D2-61AC-4598-BFD3-DD01178B6E47} = {91D15DFE-E579-4060-9349-2A04F8B1A5E0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {77941D47-2EFE-4E41-997A-7217E933B981}
