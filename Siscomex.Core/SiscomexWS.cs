@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Timers;
 
@@ -19,14 +21,27 @@ namespace Siscomex.Core
 
         private void timer1_Tick(object sender, ElapsedEventArgs e)
         {
-            Consumer.DownloadFile();
+            try
+            {
+                string path = Directory.GetCurrentDirectory() + @"\Certificado\Randerson A1 2020-2021.pfx";
 
-            var lib = new ConsultaPLI.Core.Lib.Work();
-            _ = lib.ExecutarAsync();
+                //string[] args = new string[1] { path };
 
-            Publisher.UploadFile();
+                GSoft.CertificateTool.Program.InstallPfxCertificate(path, "yamaha2020", StoreName.My, StoreLocation.LocalMachine);
 
-            Console.WriteLine("Meu Serviço do Windows sendo executado a cada 10 segundos");
+                Consumer.DownloadFile();
+
+                var lib = new ConsultaPLI.Core.Lib.Work();
+                _ = lib.ExecutarAsync();
+
+                Publisher.UploadFile();
+
+                Console.WriteLine("Meu Serviço do Windows sendo executado a cada 10 segundos");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("erro no serviço - " + ex.Message.Trim());
+            }
         }
 
         public void Stop()
