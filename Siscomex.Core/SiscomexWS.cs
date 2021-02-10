@@ -23,7 +23,7 @@ namespace Siscomex.Core
         {
             try
             {
-                string path = Directory.GetCurrentDirectory() + @"\Certificado\Randerson A1 2020-2021.pfx";
+                string path = Directory.GetCurrentDirectory() + @"\Certificado\yamaha.pfx";
 
                 //string[] args = new string[1] { path };
 
