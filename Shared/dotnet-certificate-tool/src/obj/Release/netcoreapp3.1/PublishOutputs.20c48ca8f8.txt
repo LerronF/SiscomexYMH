@@ -1,0 +1,6 @@
+C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\dotnet-certificate-tool\src\bin\Release\netcoreapp3.1\publish\GSoft.CertificateTool.exe
+C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\dotnet-certificate-tool\src\bin\Release\netcoreapp3.1\publish\GSoft.CertificateTool.dll
+C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\dotnet-certificate-tool\src\bin\Release\netcoreapp3.1\publish\GSoft.CertificateTool.deps.json
+C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\dotnet-certificate-tool\src\bin\Release\netcoreapp3.1\publish\GSoft.CertificateTool.runtimeconfig.json
+C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\dotnet-certificate-tool\src\bin\Release\netcoreapp3.1\publish\GSoft.CertificateTool.pdb
+C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\dotnet-certificate-tool\src\bin\Release\netcoreapp3.1\publish\CommandLine.dll

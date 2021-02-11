@@ -1,0 +1,11 @@
+C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\SimpleBrowser.Core\bin\Debug\netcoreapp3.1\SimpleBrowser.Core.deps.json
+C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\SimpleBrowser.Core\bin\Debug\netcoreapp3.1\SimpleBrowser.Core.dll
+C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\SimpleBrowser.Core\bin\Debug\netcoreapp3.1\SimpleBrowser.Core.pdb
+C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\SimpleBrowser.Core\obj\Debug\netcoreapp3.1\SimpleBrowser.Core.csprojAssemblyReference.cache
+C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\SimpleBrowser.Core\obj\Debug\netcoreapp3.1\SimpleBrowser.Core.Properties.Resources.resources
+C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\SimpleBrowser.Core\obj\Debug\netcoreapp3.1\SimpleBrowser.Core.csproj.GenerateResource.cache
+C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\SimpleBrowser.Core\obj\Debug\netcoreapp3.1\SimpleBrowser.Core.AssemblyInfoInputs.cache
+C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\SimpleBrowser.Core\obj\Debug\netcoreapp3.1\SimpleBrowser.Core.AssemblyInfo.cs
+C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\SimpleBrowser.Core\obj\Debug\netcoreapp3.1\SimpleBrowser.Core.csproj.CoreCompileInputs.cache
+C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\SimpleBrowser.Core\obj\Debug\netcoreapp3.1\SimpleBrowser.Core.dll
+C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\SimpleBrowser.Core\obj\Debug\netcoreapp3.1\SimpleBrowser.Core.pdb

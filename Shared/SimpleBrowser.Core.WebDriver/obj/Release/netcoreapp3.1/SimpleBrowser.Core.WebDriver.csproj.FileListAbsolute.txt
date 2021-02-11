@@ -1,0 +1,12 @@
+C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\SimpleBrowser.Core.WebDriver\bin\Release\netcoreapp3.1\SimpleBrowser.Core.WebDriver.deps.json
+C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\SimpleBrowser.Core.WebDriver\bin\Release\netcoreapp3.1\SimpleBrowser.Core.WebDriver.dll
+C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\SimpleBrowser.Core.WebDriver\bin\Release\netcoreapp3.1\SimpleBrowser.Core.WebDriver.pdb
+C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\SimpleBrowser.Core.WebDriver\bin\Release\netcoreapp3.1\SimpleBrowser.Core.dll
+C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\SimpleBrowser.Core.WebDriver\bin\Release\netcoreapp3.1\SimpleBrowser.Core.pdb
+C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\SimpleBrowser.Core.WebDriver\obj\Release\netcoreapp3.1\SimpleBrowser.Core.WebDriver.csprojAssemblyReference.cache
+C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\SimpleBrowser.Core.WebDriver\obj\Release\netcoreapp3.1\SimpleBrowser.Core.WebDriver.AssemblyInfoInputs.cache
+C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\SimpleBrowser.Core.WebDriver\obj\Release\netcoreapp3.1\SimpleBrowser.Core.WebDriver.AssemblyInfo.cs
+C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\SimpleBrowser.Core.WebDriver\obj\Release\netcoreapp3.1\SimpleBrowser.Core.WebDriver.csproj.CoreCompileInputs.cache
+C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\SimpleBrowser.Core.WebDriver\obj\Release\netcoreapp3.1\SimpleBrowser.Core.WebDriver.csproj.CopyComplete
+C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\SimpleBrowser.Core.WebDriver\obj\Release\netcoreapp3.1\SimpleBrowser.Core.WebDriver.dll
+C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\SimpleBrowser.Core.WebDriver\obj\Release\netcoreapp3.1\SimpleBrowser.Core.WebDriver.pdb

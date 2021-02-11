@@ -1,0 +1,12 @@
+C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\Siscomex.Core.Shared\bin\Release\netcoreapp3.1\Certificado\Randerson A1 2020-2021.pfx
+C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\Siscomex.Core.Shared\bin\Release\netcoreapp3.1\Certificado\randerson.cer
+C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\Siscomex.Core.Shared\bin\Release\netcoreapp3.1\Certificado\randerson.key
+C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\Siscomex.Core.Shared\bin\Release\netcoreapp3.1\Siscomex.Core.Shared.deps.json
+C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\Siscomex.Core.Shared\bin\Release\netcoreapp3.1\Siscomex.Core.Shared.dll
+C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\Siscomex.Core.Shared\bin\Release\netcoreapp3.1\Siscomex.Core.Shared.pdb
+C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\Siscomex.Core.Shared\obj\Release\netcoreapp3.1\Siscomex.Core.Shared.AssemblyInfoInputs.cache
+C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\Siscomex.Core.Shared\obj\Release\netcoreapp3.1\Siscomex.Core.Shared.AssemblyInfo.cs
+C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\Siscomex.Core.Shared\obj\Release\netcoreapp3.1\Siscomex.Core.Shared.csproj.CoreCompileInputs.cache
+C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\Siscomex.Core.Shared\obj\Release\netcoreapp3.1\Siscomex.Core.Shared.dll
+C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\Siscomex.Core.Shared\obj\Release\netcoreapp3.1\Siscomex.Core.Shared.pdb
+C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\Siscomex.Core.Shared\obj\Release\netcoreapp3.1\Siscomex.Core.Shared.csprojAssemblyReference.cache

@@ -38,7 +38,9 @@ namespace ConsultaPLI.Core.Lib
 
         private async Task Acessar()
         {
-            string[] Arquivos = Directory.GetFiles(@"/home/download", "*.xml");
+            string caminhoDownload = Environment.GetEnvironmentVariable("DOWNLOAD");
+            string caminhoUpload = Environment.GetEnvironmentVariable("UPLOAD");
+            string[] Arquivos = Directory.GetFiles(caminhoDownload, "*.xml");
 
             foreach (var file in Arquivos)
             {
@@ -53,22 +55,24 @@ namespace ConsultaPLI.Core.Lib
                         LogController.RegistrarLog($"Carregando Certificado...");                        
 
                         var certificado = ControleCertificados.GetClientCertificate();
+                        Console.WriteLine(certificado);
                         using (var driver = new SimpleBrowser.Core.WebDriver.SimpleBrowserDriver(certificado))
                         {
                             var horaData = DateTime.Now.ToString().Replace("/", "").Replace(":", "").Replace(" ", "");
 
                             //FUTURAMENTE ESSE CAMINHO SERÁ CONFIGURADO EM UMA TABELA
-                            if (!System.IO.Directory.Exists(@"/home/upload/"))
+                            if (!System.IO.Directory.Exists(caminhoUpload))
                             {
-                                System.IO.Directory.CreateDirectory(@"/home/upload/");
+                                System.IO.Directory.CreateDirectory(caminhoUpload);
                             }
 
-                            arquivoPath = Path.Combine(@"/home/upload/", horaData + "-Extrato.xml");
+                            arquivoPath = Path.Combine(caminhoUpload, horaData + "-Extrato.xml");
 
                             if (!File.Exists(arquivoPath))
                             {
+                                
                                 driver._my.Navigate(_urlSite);
-                                LogController.RegistrarLog($"Autenticando...");
+                                //LogController.RegistrarLog($"Autenticando...");
 
                                 driver._my.Navigate(_urlConsultaPLI);
                                 LogController.RegistrarLog($"Acessando SISCOMEX...");
@@ -117,6 +121,7 @@ namespace ConsultaPLI.Core.Lib
                 }
                 catch (Exception e)
                 {
+                    LogController.RegistrarLog(e.ToString());
                     LogController.RegistrarLog("Erro ao Baixar XML " + e.Message.Trim());
                 }
             }

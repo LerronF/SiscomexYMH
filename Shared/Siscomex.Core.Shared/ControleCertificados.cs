@@ -18,6 +18,7 @@ namespace Siscomex.Core.Shared
 
         public static void CarregarCertificado(PhantomJSDriverService service)
         {
+            LogController.RegistrarLog("1");
             service.IgnoreSslErrors = true;
             string cert = $"--ssl-client-certificate-file={Directory.GetCurrentDirectory()}\\Certificado\\randerson.cer";
             service.AddArgument(cert);
@@ -43,9 +44,9 @@ namespace Siscomex.Core.Shared
 
         public static X509Certificate GetClientCertificate()
         {
+            LogController.RegistrarLog("2");
             return
-                FindCertificate(StoreLocation.CurrentUser) ??
-                FindCertificate(StoreLocation.LocalMachine);
+                FindCertificate(StoreLocation.CurrentUser);
             X509Certificate FindCertificate(StoreLocation location)
             {
                 X509Store store = new X509Store(location);

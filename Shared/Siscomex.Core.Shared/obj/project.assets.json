@@ -1,0 +1,195 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Selenium.Support/3.4.0": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "3.4.0"
+        },
+        "compile": {
+          "lib/net40/WebDriver.Support.dll": {}
+        },
+        "runtime": {
+          "lib/net40/WebDriver.Support.dll": {}
+        }
+      },
+      "Selenium.Utils/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.Support": "3.4.0"
+        },
+        "compile": {
+          "lib/net452/Selenium.Utils.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Selenium.Utils.dll": {}
+        }
+      },
+      "Selenium.WebDriver/3.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/WebDriver.dll": {}
+        },
+        "runtime": {
+          "lib/net40/WebDriver.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Selenium.Support/3.4.0": {
+      "sha512": "K+kyZV0iDn2h4hc1es1R4v+M6rULbkisUIAUU4unCNSf4LLAIsOVGMvcHo+9Zdrx83B5LFhAf31HAYv21L3riQ==",
+      "type": "package",
+      "path": "selenium.support/3.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/WebDriver.Support.dll",
+        "lib/net35/WebDriver.Support.xml",
+        "lib/net40/WebDriver.Support.dll",
+        "lib/net40/WebDriver.Support.xml",
+        "selenium.support.3.4.0.nupkg.sha512",
+        "selenium.support.nuspec"
+      ]
+    },
+    "Selenium.Utils/1.0.0": {
+      "sha512": "o0Dztc0inedROAgW+gu9Xe3AmnHqp1i91jKMvbviTbzKdP4TIsy5QdY/KzWri/hM0Z7H6mxRp64PdYlsao4A+A==",
+      "type": "package",
+      "path": "selenium.utils/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/Selenium.Utils.dll",
+        "selenium.utils.1.0.0.nupkg.sha512",
+        "selenium.utils.nuspec"
+      ]
+    },
+    "Selenium.WebDriver/3.4.0": {
+      "sha512": "a/IjADMplG3rIfClryma/VjdEURhHA3yrZ7jlBJmVIJqxGD9GKNHfPeuhEX9dpXX1iLGh1dCMy7oJiA7O2Mw7A==",
+      "type": "package",
+      "path": "selenium.webdriver/3.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/WebDriver.dll",
+        "lib/net35/WebDriver.xml",
+        "lib/net40/WebDriver.dll",
+        "lib/net40/WebDriver.xml",
+        "selenium.webdriver.3.4.0.nupkg.sha512",
+        "selenium.webdriver.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Selenium.Support >= 3.4.0",
+      "Selenium.Utils >= 1.0.0",
+      "Selenium.WebDriver >= 3.4.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\matheus.pinheiro\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\matheus.pinheiro\\SISCOMEX-PROJETO\\SiscomexYMH\\Shared\\Siscomex.Core.Shared\\Siscomex.Core.Shared.csproj",
+      "projectName": "Siscomex.Core.Shared",
+      "projectPath": "C:\\Users\\matheus.pinheiro\\SISCOMEX-PROJETO\\SiscomexYMH\\Shared\\Siscomex.Core.Shared\\Siscomex.Core.Shared.csproj",
+      "packagesPath": "C:\\Users\\matheus.pinheiro\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\matheus.pinheiro\\SISCOMEX-PROJETO\\SiscomexYMH\\Shared\\Siscomex.Core.Shared\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\matheus.pinheiro\\SISCOMEX-PROJETO\\SiscomexYMH\\.nuget\\NuGet.Config",
+        "C:\\Users\\matheus.pinheiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "Selenium.Support": {
+            "target": "Package",
+            "version": "[3.4.0, )"
+          },
+          "Selenium.Utils": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
+          "Selenium.WebDriver": {
+            "target": "Package",
+            "version": "[3.4.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'Selenium.Support 3.4.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto '.NETCoreApp,Version=v3.1'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "Selenium.Support",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'Selenium.Utils 1.0.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto '.NETCoreApp,Version=v3.1'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "Selenium.Utils",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'Selenium.WebDriver 3.4.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto '.NETCoreApp,Version=v3.1'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "Selenium.WebDriver",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

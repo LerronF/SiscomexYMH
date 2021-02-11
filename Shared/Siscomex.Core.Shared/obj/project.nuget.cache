@@ -1,0 +1,43 @@
+{
+  "version": 2,
+  "dgSpecHash": "0TLTnmYzLjOshUE3VQrKP0zv5fjcXOqbckTx5q1Zl7wsjY09QRejdJ/mjNDaXLvIJkhH5OlsH0i+LlU1MDbtew==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\matheus.pinheiro\\SISCOMEX-PROJETO\\SiscomexYMH\\Shared\\Siscomex.Core.Shared\\Siscomex.Core.Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\matheus.pinheiro\\.nuget\\packages\\selenium.support\\3.4.0\\selenium.support.3.4.0.nupkg.sha512",
+    "C:\\Users\\matheus.pinheiro\\.nuget\\packages\\selenium.utils\\1.0.0\\selenium.utils.1.0.0.nupkg.sha512",
+    "C:\\Users\\matheus.pinheiro\\.nuget\\packages\\selenium.webdriver\\3.4.0\\selenium.webdriver.3.4.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'Selenium.Support 3.4.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto '.NETCoreApp,Version=v3.1'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "Selenium.Support",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'Selenium.Utils 1.0.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto '.NETCoreApp,Version=v3.1'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "Selenium.Utils",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'Selenium.WebDriver 3.4.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto '.NETCoreApp,Version=v3.1'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "Selenium.WebDriver",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\ConsultaPLI\ConsultaPLI.Core.Lib\bin\Debug\netcoreapp3.1\Certificado\Randerson A1 2020-2021.pfx
+C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\ConsultaPLI\ConsultaPLI.Core.Lib\bin\Debug\netcoreapp3.1\Certificado\randerson.cer
+C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\ConsultaPLI\ConsultaPLI.Core.Lib\bin\Debug\netcoreapp3.1\Certificado\randerson.key
+C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\ConsultaPLI\ConsultaPLI.Core.Lib\bin\Debug\netcoreapp3.1\ConsultaPLI.Core.Lib.deps.json
+C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\ConsultaPLI\ConsultaPLI.Core.Lib\bin\Debug\netcoreapp3.1\ConsultaPLI.Core.Lib.dll
+C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\ConsultaPLI\ConsultaPLI.Core.Lib\bin\Debug\netcoreapp3.1\ConsultaPLI.Core.Lib.pdb
+C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\ConsultaPLI\ConsultaPLI.Core.Lib\bin\Debug\netcoreapp3.1\SimpleBrowser.Core.dll
+C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\ConsultaPLI\ConsultaPLI.Core.Lib\bin\Debug\netcoreapp3.1\Siscomex.Core.Shared.dll
+C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\ConsultaPLI\ConsultaPLI.Core.Lib\bin\Debug\netcoreapp3.1\SimpleBrowser.Core.pdb
+C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\ConsultaPLI\ConsultaPLI.Core.Lib\bin\Debug\netcoreapp3.1\Siscomex.Core.Shared.pdb
+C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\ConsultaPLI\ConsultaPLI.Core.Lib\obj\Debug\netcoreapp3.1\ConsultaPLI.Core.Lib.csprojAssemblyReference.cache
+C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\ConsultaPLI\ConsultaPLI.Core.Lib\obj\Debug\netcoreapp3.1\ConsultaPLI.Core.Lib.AssemblyInfoInputs.cache
+C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\ConsultaPLI\ConsultaPLI.Core.Lib\obj\Debug\netcoreapp3.1\ConsultaPLI.Core.Lib.AssemblyInfo.cs
+C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\ConsultaPLI\ConsultaPLI.Core.Lib\obj\Debug\netcoreapp3.1\ConsultaPLI.Core.Lib.csproj.CoreCompileInputs.cache
+C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\ConsultaPLI\ConsultaPLI.Core.Lib\obj\Debug\netcoreapp3.1\ConsultaPLI.Core.Lib.csproj.CopyComplete
+C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\ConsultaPLI\ConsultaPLI.Core.Lib\obj\Debug\netcoreapp3.1\ConsultaPLI.Core.Lib.dll
+C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\ConsultaPLI\ConsultaPLI.Core.Lib\obj\Debug\netcoreapp3.1\ConsultaPLI.Core.Lib.pdb

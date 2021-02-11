@@ -13,7 +13,7 @@ namespace Siscomex.Core
         {
             //Coloque aqui o código que executa quando o Serviço do Windows Iniciar
             var timer1 = new Timer();
-            timer1.Interval = 100000; //a cada 10 segundos
+            timer1.Interval = 1000 * 30; //a cada 3 segundos
             timer1.Elapsed += new System.Timers.ElapsedEventHandler(timer1_Tick);
             timer1.Enabled = true;
             Console.WriteLine("Meu Serviço do Windows foi inicado");
@@ -23,11 +23,10 @@ namespace Siscomex.Core
         {
             try
             {
-                string path = Directory.GetCurrentDirectory() + @"\Certificado\Randerson A1 2020-2021.pfx";
-
-                //string[] args = new string[1] { path };
-
-                GSoft.CertificateTool.Program.InstallPfxCertificate(path, "yamaha2020", StoreName.My, StoreLocation.LocalMachine);
+                //string path = string.Join(@"\",@"C:\Users\matheus.pinheiro\Downloads\certificados-digitais\certificados-digitais", "yamaha.pfx");
+                string path = Environment.GetEnvironmentVariable("CERT");
+                Console.WriteLine("CERTIFICADO: " + path);
+                GSoft.CertificateTool.Program.InstallPfxCertificate(path, "yamaha2020", StoreName.My, StoreLocation.CurrentUser);
 
                 Consumer.DownloadFile();
 
@@ -40,7 +39,7 @@ namespace Siscomex.Core
             }
             catch (Exception ex)
             {
-                Console.WriteLine("erro no serviço - " + ex.Message.Trim());
+                Console.WriteLine("erro no serviço - " + ex.ToString());
             }
         }
 

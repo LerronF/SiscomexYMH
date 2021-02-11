@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ivm+OVKvRSmnsFSNyYnx/p1dv2X/z4sttZ2HiLM3dOkk/AqejZmkuYJ19ilDXhnQH9uQxFa5a1uoaEeYyZnYcg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\matheus.pinheiro\\SISCOMEX-PROJETO\\SiscomexYMH\\Shared\\SimpleBrowser.Core.WebDriver\\SimpleBrowser.Core.WebDriver.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\matheus.pinheiro\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\matheus.pinheiro\\.nuget\\packages\\selenium.webdriver\\3.10.0\\selenium.webdriver.3.10.0.nupkg.sha512"
+  ],
+  "logs": []
+}

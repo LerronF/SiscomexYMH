@@ -14,13 +14,14 @@ namespace Siscomex.Core
             {
                 var horaData = DateTime.Now.ToString().Replace("/", "").Replace(":", "").Replace(" ", "");
                 var aux = CapturaArquivo();
-
-                if (!System.IO.Directory.Exists(@"/home/download/"))
+                string caminhoDownload = Environment.GetEnvironmentVariable("DOWNLOAD");
+                Console.WriteLine(caminhoDownload);
+                if (!System.IO.Directory.Exists(caminhoDownload))
                 {
-                    System.IO.Directory.CreateDirectory(@"/home/download/");
+                    System.IO.Directory.CreateDirectory(caminhoDownload);
                 }
 
-                string arquivoPath = Path.Combine(@"/home/download/", horaData + "-PLI.xml");
+                string arquivoPath = Path.Combine(caminhoDownload, horaData + "-PLI.xml");
 
                 using (StreamWriter sw = File.CreateText(arquivoPath))
                 {
