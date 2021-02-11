@@ -13,6 +13,7 @@
   <ItemGroup>
     <ProjectReference Include="..\ConsultaPLI\ConsultaPLI.Core.Lib\ConsultaPLI.Core.Lib.csproj" />
     <ProjectReference Include="..\Shared\dotnet-certificate-tool\src\GSoft.CertificateTool.csproj" />
+    <ProjectReference Include="..\Shared\Siscomex.Core.Shared\Siscomex.Core.Shared.csproj" />
   </ItemGroup>
 
 </Project>

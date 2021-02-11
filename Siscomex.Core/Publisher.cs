@@ -13,7 +13,8 @@ namespace Siscomex.Core
         {
             try
             {
-                string[] Arquivos = Directory.GetFiles(@"/home/upload/", "*.xml");
+                string caminhoUpload = Environment.GetEnvironmentVariable("UPLOAD");
+                string[] Arquivos = Directory.GetFiles(caminhoUpload, "*.xml");
                 XmlDocument doc = new XmlDocument();
 
                 foreach (var file in Arquivos)
