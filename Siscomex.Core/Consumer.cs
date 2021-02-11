@@ -8,29 +8,41 @@ namespace Siscomex.Core
 {
     public class Consumer
     {
-        public static void DownloadFile()
+        public static bool DownloadFile()
         {
             try
             {
                 var horaData = DateTime.Now.ToString().Replace("/", "").Replace(":", "").Replace(" ", "");
                 var aux = CapturaArquivo();
-                string caminhoDownload = Environment.GetEnvironmentVariable("DOWNLOAD");
-                Console.WriteLine(caminhoDownload);
-                if (!System.IO.Directory.Exists(caminhoDownload))
+
+                if (aux != "")
                 {
-                    System.IO.Directory.CreateDirectory(caminhoDownload);
+                    string caminhoDownload = Environment.GetEnvironmentVariable("DOWNLOAD");
+                    Console.WriteLine(caminhoDownload);
+
+                    if (!System.IO.Directory.Exists(caminhoDownload))
+                    {
+                        System.IO.Directory.CreateDirectory(caminhoDownload);
+                    }
+
+                    string arquivoPath = Path.Combine(caminhoDownload, horaData + "-PLI.xml");
+
+                    using (StreamWriter sw = File.CreateText(arquivoPath))
+                    {
+                        sw.WriteLine(aux);
+                    }
+
+                    return true;
                 }
-
-                string arquivoPath = Path.Combine(caminhoDownload, horaData + "-PLI.xml");
-
-                using (StreamWriter sw = File.CreateText(arquivoPath))
+                else
                 {
-                    sw.WriteLine(aux);
+                    return false;
                 }
             }
             catch (Exception ex)
             {
                 Console.WriteLine("Erro no download: " + ex.Message.Trim());
+                return false;
             }
         }
 
@@ -59,7 +71,7 @@ namespace Siscomex.Core
                 data = channel.BasicGet(queueName, true);
             }
 
-            return data != null ? System.Text.Encoding.UTF8.GetString(data.Body) : null;
+            return data != null ? System.Text.Encoding.UTF8.GetString(data.Body) : "";
         }
     }
 }

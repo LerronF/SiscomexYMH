@@ -10,3 +10,15 @@ C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\SimpleBrowser.Core
 C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\SimpleBrowser.Core.WebDriver\obj\Release\netcoreapp3.1\SimpleBrowser.Core.WebDriver.csproj.CopyComplete
 C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\SimpleBrowser.Core.WebDriver\obj\Release\netcoreapp3.1\SimpleBrowser.Core.WebDriver.dll
 C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\SimpleBrowser.Core.WebDriver\obj\Release\netcoreapp3.1\SimpleBrowser.Core.WebDriver.pdb
+C:\iTriad\SiscomexYMH\Shared\SimpleBrowser.Core.WebDriver\bin\Release\netcoreapp3.1\SimpleBrowser.Core.WebDriver.deps.json
+C:\iTriad\SiscomexYMH\Shared\SimpleBrowser.Core.WebDriver\bin\Release\netcoreapp3.1\SimpleBrowser.Core.WebDriver.dll
+C:\iTriad\SiscomexYMH\Shared\SimpleBrowser.Core.WebDriver\bin\Release\netcoreapp3.1\SimpleBrowser.Core.WebDriver.pdb
+C:\iTriad\SiscomexYMH\Shared\SimpleBrowser.Core.WebDriver\bin\Release\netcoreapp3.1\SimpleBrowser.Core.dll
+C:\iTriad\SiscomexYMH\Shared\SimpleBrowser.Core.WebDriver\bin\Release\netcoreapp3.1\SimpleBrowser.Core.pdb
+C:\iTriad\SiscomexYMH\Shared\SimpleBrowser.Core.WebDriver\obj\Release\netcoreapp3.1\SimpleBrowser.Core.WebDriver.csprojAssemblyReference.cache
+C:\iTriad\SiscomexYMH\Shared\SimpleBrowser.Core.WebDriver\obj\Release\netcoreapp3.1\SimpleBrowser.Core.WebDriver.AssemblyInfoInputs.cache
+C:\iTriad\SiscomexYMH\Shared\SimpleBrowser.Core.WebDriver\obj\Release\netcoreapp3.1\SimpleBrowser.Core.WebDriver.AssemblyInfo.cs
+C:\iTriad\SiscomexYMH\Shared\SimpleBrowser.Core.WebDriver\obj\Release\netcoreapp3.1\SimpleBrowser.Core.WebDriver.csproj.CoreCompileInputs.cache
+C:\iTriad\SiscomexYMH\Shared\SimpleBrowser.Core.WebDriver\obj\Release\netcoreapp3.1\SimpleBrowser.Core.WebDriver.csproj.CopyComplete
+C:\iTriad\SiscomexYMH\Shared\SimpleBrowser.Core.WebDriver\obj\Release\netcoreapp3.1\SimpleBrowser.Core.WebDriver.dll
+C:\iTriad\SiscomexYMH\Shared\SimpleBrowser.Core.WebDriver\obj\Release\netcoreapp3.1\SimpleBrowser.Core.WebDriver.pdb

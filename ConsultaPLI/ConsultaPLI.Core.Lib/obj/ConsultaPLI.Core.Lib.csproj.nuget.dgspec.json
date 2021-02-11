@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\matheus.pinheiro\\SISCOMEX-PROJETO\\SiscomexYMH\\ConsultaPLI\\ConsultaPLI.Core.Lib\\ConsultaPLI.Core.Lib.csproj": {}
+    "C:\\iTriad\\SiscomexYMH\\ConsultaPLI\\ConsultaPLI.Core.Lib\\ConsultaPLI.Core.Lib.csproj": {}
   },
   "projects": {
-    "C:\\Users\\matheus.pinheiro\\SISCOMEX-PROJETO\\SiscomexYMH\\ConsultaPLI\\ConsultaPLI.Core.Lib\\ConsultaPLI.Core.Lib.csproj": {
+    "C:\\iTriad\\SiscomexYMH\\ConsultaPLI\\ConsultaPLI.Core.Lib\\ConsultaPLI.Core.Lib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\matheus.pinheiro\\SISCOMEX-PROJETO\\SiscomexYMH\\ConsultaPLI\\ConsultaPLI.Core.Lib\\ConsultaPLI.Core.Lib.csproj",
+        "projectUniqueName": "C:\\iTriad\\SiscomexYMH\\ConsultaPLI\\ConsultaPLI.Core.Lib\\ConsultaPLI.Core.Lib.csproj",
         "projectName": "ConsultaPLI.Core.Lib",
-        "projectPath": "C:\\Users\\matheus.pinheiro\\SISCOMEX-PROJETO\\SiscomexYMH\\ConsultaPLI\\ConsultaPLI.Core.Lib\\ConsultaPLI.Core.Lib.csproj",
-        "packagesPath": "C:\\Users\\matheus.pinheiro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\matheus.pinheiro\\SISCOMEX-PROJETO\\SiscomexYMH\\ConsultaPLI\\ConsultaPLI.Core.Lib\\obj\\",
+        "projectPath": "C:\\iTriad\\SiscomexYMH\\ConsultaPLI\\ConsultaPLI.Core.Lib\\ConsultaPLI.Core.Lib.csproj",
+        "packagesPath": "C:\\Users\\lerron.jesus\\.nuget\\packages\\",
+        "outputPath": "C:\\iTriad\\SiscomexYMH\\ConsultaPLI\\ConsultaPLI.Core.Lib\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\matheus.pinheiro\\SISCOMEX-PROJETO\\SiscomexYMH\\.nuget\\NuGet.Config",
-          "C:\\Users\\matheus.pinheiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\iTriad\\SiscomexYMH\\.nuget\\NuGet.Config",
+          "C:\\Users\\lerron.jesus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,11 +29,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\matheus.pinheiro\\SISCOMEX-PROJETO\\SiscomexYMH\\Shared\\SimpleBrowser.Core\\SimpleBrowser.Core.csproj": {
-                "projectPath": "C:\\Users\\matheus.pinheiro\\SISCOMEX-PROJETO\\SiscomexYMH\\Shared\\SimpleBrowser.Core\\SimpleBrowser.Core.csproj"
+              "C:\\iTriad\\SiscomexYMH\\Shared\\SimpleBrowser.Core\\SimpleBrowser.Core.csproj": {
+                "projectPath": "C:\\iTriad\\SiscomexYMH\\Shared\\SimpleBrowser.Core\\SimpleBrowser.Core.csproj"
               },
-              "C:\\Users\\matheus.pinheiro\\SISCOMEX-PROJETO\\SiscomexYMH\\Shared\\Siscomex.Core.Shared\\Siscomex.Core.Shared.csproj": {
-                "projectPath": "C:\\Users\\matheus.pinheiro\\SISCOMEX-PROJETO\\SiscomexYMH\\Shared\\Siscomex.Core.Shared\\Siscomex.Core.Shared.csproj"
+              "C:\\iTriad\\SiscomexYMH\\Shared\\Siscomex.Core.Shared\\Siscomex.Core.Shared.csproj": {
+                "projectPath": "C:\\iTriad\\SiscomexYMH\\Shared\\Siscomex.Core.Shared\\Siscomex.Core.Shared.csproj"
               }
             }
           }
@@ -112,22 +112,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\matheus.pinheiro\\SISCOMEX-PROJETO\\SiscomexYMH\\Shared\\SimpleBrowser.Core\\SimpleBrowser.Core.csproj": {
+    "C:\\iTriad\\SiscomexYMH\\Shared\\SimpleBrowser.Core\\SimpleBrowser.Core.csproj": {
       "version": "0.5.79",
       "restore": {
-        "projectUniqueName": "C:\\Users\\matheus.pinheiro\\SISCOMEX-PROJETO\\SiscomexYMH\\Shared\\SimpleBrowser.Core\\SimpleBrowser.Core.csproj",
+        "projectUniqueName": "C:\\iTriad\\SiscomexYMH\\Shared\\SimpleBrowser.Core\\SimpleBrowser.Core.csproj",
         "projectName": "SimpleBrowser.Core",
-        "projectPath": "C:\\Users\\matheus.pinheiro\\SISCOMEX-PROJETO\\SiscomexYMH\\Shared\\SimpleBrowser.Core\\SimpleBrowser.Core.csproj",
-        "packagesPath": "C:\\Users\\matheus.pinheiro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\matheus.pinheiro\\SISCOMEX-PROJETO\\SiscomexYMH\\Shared\\SimpleBrowser.Core\\obj\\",
+        "projectPath": "C:\\iTriad\\SiscomexYMH\\Shared\\SimpleBrowser.Core\\SimpleBrowser.Core.csproj",
+        "packagesPath": "C:\\Users\\lerron.jesus\\.nuget\\packages\\",
+        "outputPath": "C:\\iTriad\\SiscomexYMH\\Shared\\SimpleBrowser.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\matheus.pinheiro\\SISCOMEX-PROJETO\\SiscomexYMH\\.nuget\\NuGet.Config",
-          "C:\\Users\\matheus.pinheiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\iTriad\\SiscomexYMH\\.nuget\\NuGet.Config",
+          "C:\\Users\\lerron.jesus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -177,22 +177,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\matheus.pinheiro\\SISCOMEX-PROJETO\\SiscomexYMH\\Shared\\Siscomex.Core.Shared\\Siscomex.Core.Shared.csproj": {
+    "C:\\iTriad\\SiscomexYMH\\Shared\\Siscomex.Core.Shared\\Siscomex.Core.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\matheus.pinheiro\\SISCOMEX-PROJETO\\SiscomexYMH\\Shared\\Siscomex.Core.Shared\\Siscomex.Core.Shared.csproj",
+        "projectUniqueName": "C:\\iTriad\\SiscomexYMH\\Shared\\Siscomex.Core.Shared\\Siscomex.Core.Shared.csproj",
         "projectName": "Siscomex.Core.Shared",
-        "projectPath": "C:\\Users\\matheus.pinheiro\\SISCOMEX-PROJETO\\SiscomexYMH\\Shared\\Siscomex.Core.Shared\\Siscomex.Core.Shared.csproj",
-        "packagesPath": "C:\\Users\\matheus.pinheiro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\matheus.pinheiro\\SISCOMEX-PROJETO\\SiscomexYMH\\Shared\\Siscomex.Core.Shared\\obj\\",
+        "projectPath": "C:\\iTriad\\SiscomexYMH\\Shared\\Siscomex.Core.Shared\\Siscomex.Core.Shared.csproj",
+        "packagesPath": "C:\\Users\\lerron.jesus\\.nuget\\packages\\",
+        "outputPath": "C:\\iTriad\\SiscomexYMH\\Shared\\Siscomex.Core.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\matheus.pinheiro\\SISCOMEX-PROJETO\\SiscomexYMH\\.nuget\\NuGet.Config",
-          "C:\\Users\\matheus.pinheiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\iTriad\\SiscomexYMH\\.nuget\\NuGet.Config",
+          "C:\\Users\\lerron.jesus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -246,7 +246,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }

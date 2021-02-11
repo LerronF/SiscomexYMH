@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="Certificado\Randerson A1 2020-2021.pfx">
+    <None Update="Certificado\yamaha.pfx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="Certificado\randerson.cer">

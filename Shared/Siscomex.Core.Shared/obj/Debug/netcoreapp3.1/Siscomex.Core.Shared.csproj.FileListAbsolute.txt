@@ -10,3 +10,14 @@ C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\Siscomex.Core.Shar
 C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\Siscomex.Core.Shared\obj\Debug\netcoreapp3.1\Siscomex.Core.Shared.csproj.CoreCompileInputs.cache
 C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\Siscomex.Core.Shared\obj\Debug\netcoreapp3.1\Siscomex.Core.Shared.dll
 C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\Siscomex.Core.Shared\obj\Debug\netcoreapp3.1\Siscomex.Core.Shared.pdb
+C:\iTriad\SiscomexYMH\Shared\Siscomex.Core.Shared\bin\Debug\netcoreapp3.1\Certificado\randerson.cer
+C:\iTriad\SiscomexYMH\Shared\Siscomex.Core.Shared\bin\Debug\netcoreapp3.1\Certificado\randerson.key
+C:\iTriad\SiscomexYMH\Shared\Siscomex.Core.Shared\bin\Debug\netcoreapp3.1\Certificado\yamaha.pfx
+C:\iTriad\SiscomexYMH\Shared\Siscomex.Core.Shared\bin\Debug\netcoreapp3.1\Siscomex.Core.Shared.deps.json
+C:\iTriad\SiscomexYMH\Shared\Siscomex.Core.Shared\bin\Debug\netcoreapp3.1\Siscomex.Core.Shared.dll
+C:\iTriad\SiscomexYMH\Shared\Siscomex.Core.Shared\bin\Debug\netcoreapp3.1\Siscomex.Core.Shared.pdb
+C:\iTriad\SiscomexYMH\Shared\Siscomex.Core.Shared\obj\Debug\netcoreapp3.1\Siscomex.Core.Shared.AssemblyInfoInputs.cache
+C:\iTriad\SiscomexYMH\Shared\Siscomex.Core.Shared\obj\Debug\netcoreapp3.1\Siscomex.Core.Shared.AssemblyInfo.cs
+C:\iTriad\SiscomexYMH\Shared\Siscomex.Core.Shared\obj\Debug\netcoreapp3.1\Siscomex.Core.Shared.csproj.CoreCompileInputs.cache
+C:\iTriad\SiscomexYMH\Shared\Siscomex.Core.Shared\obj\Debug\netcoreapp3.1\Siscomex.Core.Shared.dll
+C:\iTriad\SiscomexYMH\Shared\Siscomex.Core.Shared\obj\Debug\netcoreapp3.1\Siscomex.Core.Shared.pdb

@@ -101,20 +101,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\matheus.pinheiro\\.nuget\\packages\\": {}
+    "C:\\Users\\lerron.jesus\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\matheus.pinheiro\\SISCOMEX-PROJETO\\SiscomexYMH\\Shared\\SimpleBrowser.Core.WebDriver\\SimpleBrowser.Core.WebDriver.csproj",
+      "projectUniqueName": "C:\\iTriad\\SiscomexYMH\\Shared\\SimpleBrowser.Core.WebDriver\\SimpleBrowser.Core.WebDriver.csproj",
       "projectName": "SimpleBrowser.Core.WebDriver",
-      "projectPath": "C:\\Users\\matheus.pinheiro\\SISCOMEX-PROJETO\\SiscomexYMH\\Shared\\SimpleBrowser.Core.WebDriver\\SimpleBrowser.Core.WebDriver.csproj",
-      "packagesPath": "C:\\Users\\matheus.pinheiro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\matheus.pinheiro\\SISCOMEX-PROJETO\\SiscomexYMH\\Shared\\SimpleBrowser.Core.WebDriver\\obj\\",
+      "projectPath": "C:\\iTriad\\SiscomexYMH\\Shared\\SimpleBrowser.Core.WebDriver\\SimpleBrowser.Core.WebDriver.csproj",
+      "packagesPath": "C:\\Users\\lerron.jesus\\.nuget\\packages\\",
+      "outputPath": "C:\\iTriad\\SiscomexYMH\\Shared\\SimpleBrowser.Core.WebDriver\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\matheus.pinheiro\\SISCOMEX-PROJETO\\SiscomexYMH\\.nuget\\NuGet.Config",
-        "C:\\Users\\matheus.pinheiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\iTriad\\SiscomexYMH\\.nuget\\NuGet.Config",
+        "C:\\Users\\lerron.jesus\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -128,8 +128,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\matheus.pinheiro\\SISCOMEX-PROJETO\\SiscomexYMH\\Shared\\SimpleBrowser.Core\\SimpleBrowser.Core.csproj": {
-              "projectPath": "C:\\Users\\matheus.pinheiro\\SISCOMEX-PROJETO\\SiscomexYMH\\Shared\\SimpleBrowser.Core\\SimpleBrowser.Core.csproj"
+            "C:\\iTriad\\SiscomexYMH\\Shared\\SimpleBrowser.Core\\SimpleBrowser.Core.csproj": {
+              "projectPath": "C:\\iTriad\\SiscomexYMH\\Shared\\SimpleBrowser.Core\\SimpleBrowser.Core.csproj"
             }
           }
         }
@@ -158,7 +158,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

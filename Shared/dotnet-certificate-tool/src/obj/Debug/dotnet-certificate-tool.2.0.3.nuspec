@@ -15,17 +15,17 @@
     <repository url="https://github.com/gsoft-inc/dotnet-certificate-tool" />
   </metadata>
   <files>
-    <file src="C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\dotnet-certificate-tool\src\obj\DotnetToolSettings.xml" target="tools\net5.0\any\DotnetToolSettings.xml" />
-    <file src="C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\dotnet-certificate-tool\src\obj\DotnetToolSettings.xml" target="tools\netcoreapp3.1\any\DotnetToolSettings.xml" />
-    <file src="C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\dotnet-certificate-tool\src\bin\Debug\net5.0\publish\GSoft.CertificateTool.dll" target="tools\net5.0\any\GSoft.CertificateTool.dll" />
-    <file src="C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\dotnet-certificate-tool\src\bin\Debug\net5.0\publish\GSoft.CertificateTool.deps.json" target="tools\net5.0\any\GSoft.CertificateTool.deps.json" />
-    <file src="C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\dotnet-certificate-tool\src\bin\Debug\net5.0\publish\GSoft.CertificateTool.runtimeconfig.json" target="tools\net5.0\any\GSoft.CertificateTool.runtimeconfig.json" />
-    <file src="C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\dotnet-certificate-tool\src\bin\Debug\net5.0\publish\GSoft.CertificateTool.pdb" target="tools\net5.0\any\GSoft.CertificateTool.pdb" />
-    <file src="C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\dotnet-certificate-tool\src\bin\Debug\net5.0\publish\CommandLine.dll" target="tools\net5.0\any\CommandLine.dll" />
-    <file src="C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\dotnet-certificate-tool\src\bin\Debug\netcoreapp3.1\publish\GSoft.CertificateTool.dll" target="tools\netcoreapp3.1\any\GSoft.CertificateTool.dll" />
-    <file src="C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\dotnet-certificate-tool\src\bin\Debug\netcoreapp3.1\publish\GSoft.CertificateTool.deps.json" target="tools\netcoreapp3.1\any\GSoft.CertificateTool.deps.json" />
-    <file src="C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\dotnet-certificate-tool\src\bin\Debug\netcoreapp3.1\publish\GSoft.CertificateTool.runtimeconfig.json" target="tools\netcoreapp3.1\any\GSoft.CertificateTool.runtimeconfig.json" />
-    <file src="C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\dotnet-certificate-tool\src\bin\Debug\netcoreapp3.1\publish\GSoft.CertificateTool.pdb" target="tools\netcoreapp3.1\any\GSoft.CertificateTool.pdb" />
-    <file src="C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\dotnet-certificate-tool\src\bin\Debug\netcoreapp3.1\publish\CommandLine.dll" target="tools\netcoreapp3.1\any\CommandLine.dll" />
+    <file src="C:\iTriad\SiscomexYMH\Shared\dotnet-certificate-tool\src\obj\DotnetToolSettings.xml" target="tools\net5.0\any\DotnetToolSettings.xml" />
+    <file src="C:\iTriad\SiscomexYMH\Shared\dotnet-certificate-tool\src\obj\DotnetToolSettings.xml" target="tools\netcoreapp3.1\any\DotnetToolSettings.xml" />
+    <file src="C:\iTriad\SiscomexYMH\Shared\dotnet-certificate-tool\src\bin\Debug\net5.0\publish\GSoft.CertificateTool.dll" target="tools\net5.0\any\GSoft.CertificateTool.dll" />
+    <file src="C:\iTriad\SiscomexYMH\Shared\dotnet-certificate-tool\src\bin\Debug\net5.0\publish\GSoft.CertificateTool.deps.json" target="tools\net5.0\any\GSoft.CertificateTool.deps.json" />
+    <file src="C:\iTriad\SiscomexYMH\Shared\dotnet-certificate-tool\src\bin\Debug\net5.0\publish\GSoft.CertificateTool.runtimeconfig.json" target="tools\net5.0\any\GSoft.CertificateTool.runtimeconfig.json" />
+    <file src="C:\iTriad\SiscomexYMH\Shared\dotnet-certificate-tool\src\bin\Debug\net5.0\publish\GSoft.CertificateTool.pdb" target="tools\net5.0\any\GSoft.CertificateTool.pdb" />
+    <file src="C:\iTriad\SiscomexYMH\Shared\dotnet-certificate-tool\src\bin\Debug\net5.0\publish\CommandLine.dll" target="tools\net5.0\any\CommandLine.dll" />
+    <file src="C:\iTriad\SiscomexYMH\Shared\dotnet-certificate-tool\src\bin\Debug\netcoreapp3.1\publish\GSoft.CertificateTool.dll" target="tools\netcoreapp3.1\any\GSoft.CertificateTool.dll" />
+    <file src="C:\iTriad\SiscomexYMH\Shared\dotnet-certificate-tool\src\bin\Debug\netcoreapp3.1\publish\GSoft.CertificateTool.deps.json" target="tools\netcoreapp3.1\any\GSoft.CertificateTool.deps.json" />
+    <file src="C:\iTriad\SiscomexYMH\Shared\dotnet-certificate-tool\src\bin\Debug\netcoreapp3.1\publish\GSoft.CertificateTool.runtimeconfig.json" target="tools\netcoreapp3.1\any\GSoft.CertificateTool.runtimeconfig.json" />
+    <file src="C:\iTriad\SiscomexYMH\Shared\dotnet-certificate-tool\src\bin\Debug\netcoreapp3.1\publish\GSoft.CertificateTool.pdb" target="tools\netcoreapp3.1\any\GSoft.CertificateTool.pdb" />
+    <file src="C:\iTriad\SiscomexYMH\Shared\dotnet-certificate-tool\src\bin\Debug\netcoreapp3.1\publish\CommandLine.dll" target="tools\netcoreapp3.1\any\CommandLine.dll" />
   </files>
 </package>

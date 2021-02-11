@@ -7253,20 +7253,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\matheus.pinheiro\\.nuget\\packages\\": {}
+    "C:\\Users\\lerron.jesus\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\matheus.pinheiro\\SISCOMEX-PROJETO\\SiscomexYMH\\ConsultaPLI\\ConsultaPLI.Core.Console\\ConsultaPLI.Core.Console.csproj",
+      "projectUniqueName": "C:\\iTriad\\SiscomexYMH\\ConsultaPLI\\ConsultaPLI.Core.Console\\ConsultaPLI.Core.Console.csproj",
       "projectName": "ConsultaPLI.Core.Console",
-      "projectPath": "C:\\Users\\matheus.pinheiro\\SISCOMEX-PROJETO\\SiscomexYMH\\ConsultaPLI\\ConsultaPLI.Core.Console\\ConsultaPLI.Core.Console.csproj",
-      "packagesPath": "C:\\Users\\matheus.pinheiro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\matheus.pinheiro\\SISCOMEX-PROJETO\\SiscomexYMH\\ConsultaPLI\\ConsultaPLI.Core.Console\\obj\\",
+      "projectPath": "C:\\iTriad\\SiscomexYMH\\ConsultaPLI\\ConsultaPLI.Core.Console\\ConsultaPLI.Core.Console.csproj",
+      "packagesPath": "C:\\Users\\lerron.jesus\\.nuget\\packages\\",
+      "outputPath": "C:\\iTriad\\SiscomexYMH\\ConsultaPLI\\ConsultaPLI.Core.Console\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\matheus.pinheiro\\SISCOMEX-PROJETO\\SiscomexYMH\\.nuget\\NuGet.Config",
-        "C:\\Users\\matheus.pinheiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\iTriad\\SiscomexYMH\\.nuget\\NuGet.Config",
+        "C:\\Users\\lerron.jesus\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7280,14 +7280,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\matheus.pinheiro\\SISCOMEX-PROJETO\\SiscomexYMH\\ConsultaPLI\\ConsultaPLI.Core.Lib\\ConsultaPLI.Core.Lib.csproj": {
-              "projectPath": "C:\\Users\\matheus.pinheiro\\SISCOMEX-PROJETO\\SiscomexYMH\\ConsultaPLI\\ConsultaPLI.Core.Lib\\ConsultaPLI.Core.Lib.csproj"
+            "C:\\iTriad\\SiscomexYMH\\ConsultaPLI\\ConsultaPLI.Core.Lib\\ConsultaPLI.Core.Lib.csproj": {
+              "projectPath": "C:\\iTriad\\SiscomexYMH\\ConsultaPLI\\ConsultaPLI.Core.Lib\\ConsultaPLI.Core.Lib.csproj"
             },
-            "C:\\Users\\matheus.pinheiro\\SISCOMEX-PROJETO\\SiscomexYMH\\Shared\\dotnet-certificate-tool\\src\\GSoft.CertificateTool.csproj": {
-              "projectPath": "C:\\Users\\matheus.pinheiro\\SISCOMEX-PROJETO\\SiscomexYMH\\Shared\\dotnet-certificate-tool\\src\\GSoft.CertificateTool.csproj"
+            "C:\\iTriad\\SiscomexYMH\\Shared\\dotnet-certificate-tool\\src\\GSoft.CertificateTool.csproj": {
+              "projectPath": "C:\\iTriad\\SiscomexYMH\\Shared\\dotnet-certificate-tool\\src\\GSoft.CertificateTool.csproj"
             },
-            "C:\\Users\\matheus.pinheiro\\SISCOMEX-PROJETO\\SiscomexYMH\\Siscomex.Core\\Siscomex.Core.csproj": {
-              "projectPath": "C:\\Users\\matheus.pinheiro\\SISCOMEX-PROJETO\\SiscomexYMH\\Siscomex.Core\\Siscomex.Core.csproj"
+            "C:\\iTriad\\SiscomexYMH\\Siscomex.Core\\Siscomex.Core.csproj": {
+              "projectPath": "C:\\iTriad\\SiscomexYMH\\Siscomex.Core\\Siscomex.Core.csproj"
             }
           }
         }
@@ -7316,7 +7316,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   },

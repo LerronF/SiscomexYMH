@@ -9,3 +9,14 @@ C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\SimpleBrowser.Core
 C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\SimpleBrowser.Core\obj\Release\netcoreapp3.1\SimpleBrowser.Core.dll
 C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\SimpleBrowser.Core\obj\Release\netcoreapp3.1\SimpleBrowser.Core.pdb
 C:\Users\matheus.pinheiro\SISCOMEX-PROJETO\SiscomexYMH\Shared\SimpleBrowser.Core\obj\Release\netcoreapp3.1\SimpleBrowser.Core.csprojAssemblyReference.cache
+C:\iTriad\SiscomexYMH\Shared\SimpleBrowser.Core\bin\Release\netcoreapp3.1\SimpleBrowser.Core.deps.json
+C:\iTriad\SiscomexYMH\Shared\SimpleBrowser.Core\bin\Release\netcoreapp3.1\SimpleBrowser.Core.dll
+C:\iTriad\SiscomexYMH\Shared\SimpleBrowser.Core\bin\Release\netcoreapp3.1\SimpleBrowser.Core.pdb
+C:\iTriad\SiscomexYMH\Shared\SimpleBrowser.Core\obj\Release\netcoreapp3.1\SimpleBrowser.Core.csprojAssemblyReference.cache
+C:\iTriad\SiscomexYMH\Shared\SimpleBrowser.Core\obj\Release\netcoreapp3.1\SimpleBrowser.Core.Properties.Resources.resources
+C:\iTriad\SiscomexYMH\Shared\SimpleBrowser.Core\obj\Release\netcoreapp3.1\SimpleBrowser.Core.csproj.GenerateResource.cache
+C:\iTriad\SiscomexYMH\Shared\SimpleBrowser.Core\obj\Release\netcoreapp3.1\SimpleBrowser.Core.AssemblyInfoInputs.cache
+C:\iTriad\SiscomexYMH\Shared\SimpleBrowser.Core\obj\Release\netcoreapp3.1\SimpleBrowser.Core.AssemblyInfo.cs
+C:\iTriad\SiscomexYMH\Shared\SimpleBrowser.Core\obj\Release\netcoreapp3.1\SimpleBrowser.Core.csproj.CoreCompileInputs.cache
+C:\iTriad\SiscomexYMH\Shared\SimpleBrowser.Core\obj\Release\netcoreapp3.1\SimpleBrowser.Core.dll
+C:\iTriad\SiscomexYMH\Shared\SimpleBrowser.Core\obj\Release\netcoreapp3.1\SimpleBrowser.Core.pdb

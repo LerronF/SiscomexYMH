@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "0TLTnmYzLjOshUE3VQrKP0zv5fjcXOqbckTx5q1Zl7wsjY09QRejdJ/mjNDaXLvIJkhH5OlsH0i+LlU1MDbtew==",
+  "dgSpecHash": "Gj8rQOnErKVig1PkJwauQ7mN2EUXp7yy/O/SkKNWrMnIJvVMj4JHBsW8tCaijeq25Pi4yTq+3t82kDr8By5wFQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\matheus.pinheiro\\SISCOMEX-PROJETO\\SiscomexYMH\\Shared\\Siscomex.Core.Shared\\Siscomex.Core.Shared.csproj",
+  "projectFilePath": "C:\\iTriad\\SiscomexYMH\\Shared\\Siscomex.Core.Shared\\Siscomex.Core.Shared.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\matheus.pinheiro\\.nuget\\packages\\selenium.support\\3.4.0\\selenium.support.3.4.0.nupkg.sha512",
-    "C:\\Users\\matheus.pinheiro\\.nuget\\packages\\selenium.utils\\1.0.0\\selenium.utils.1.0.0.nupkg.sha512",
-    "C:\\Users\\matheus.pinheiro\\.nuget\\packages\\selenium.webdriver\\3.4.0\\selenium.webdriver.3.4.0.nupkg.sha512"
+    "C:\\Users\\lerron.jesus\\.nuget\\packages\\selenium.support\\3.4.0\\selenium.support.3.4.0.nupkg.sha512",
+    "C:\\Users\\lerron.jesus\\.nuget\\packages\\selenium.utils\\1.0.0\\selenium.utils.1.0.0.nupkg.sha512",
+    "C:\\Users\\lerron.jesus\\.nuget\\packages\\selenium.webdriver\\3.4.0\\selenium.webdriver.3.4.0.nupkg.sha512"
   ],
   "logs": [
     {

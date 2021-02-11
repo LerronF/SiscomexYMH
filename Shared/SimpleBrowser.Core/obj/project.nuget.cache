@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "taYg64rSspNkntHZbIDrsqC4D8zUB8HYoScWU9WZNLtASiwrVdCUdwY43+6jtXh5kCMl5eCWbfQ9ezUdGVmTdg==",
+  "dgSpecHash": "VhwcnWa0NThz1j9Fgt/wF96qQv8icKe1rKBFOiXuP486nuEXVV82SIz8F2T0QItG3qMgy4rEZbzF9PYoH/c1MA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\matheus.pinheiro\\SISCOMEX-PROJETO\\SiscomexYMH\\Shared\\SimpleBrowser.Core\\SimpleBrowser.Core.csproj",
+  "projectFilePath": "C:\\iTriad\\SiscomexYMH\\Shared\\SimpleBrowser.Core\\SimpleBrowser.Core.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\matheus.pinheiro\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
-    "C:\\Users\\matheus.pinheiro\\.nuget\\packages\\selenium.webdriver\\3.10.0\\selenium.webdriver.3.10.0.nupkg.sha512"
+    "C:\\Users\\lerron.jesus\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\lerron.jesus\\.nuget\\packages\\selenium.webdriver\\3.10.0\\selenium.webdriver.3.10.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Siscomex.Core.Shared;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Security.Cryptography.X509Certificates;
@@ -13,7 +14,7 @@ namespace Siscomex.Core
         {
             //Coloque aqui o código que executa quando o Serviço do Windows Iniciar
             var timer1 = new Timer();
-            timer1.Interval = 1000 * 30; //a cada 3 segundos
+            timer1.Interval = 30000; //a cada 30 segundos
             timer1.Elapsed += new System.Timers.ElapsedEventHandler(timer1_Tick);
             timer1.Enabled = true;
             Console.WriteLine("Meu Serviço do Windows foi inicado");
@@ -23,17 +24,28 @@ namespace Siscomex.Core
         {
             try
             {
-                //string path = string.Join(@"\",@"C:\Users\matheus.pinheiro\Downloads\certificados-digitais\certificados-digitais", "yamaha.pfx");
+                //string path = Directory.GetCurrentDirectory() + @"\Certificado\yamaha.pfx"; //string.Join(@"\",@"C:\Users\matheus.pinheiro\Downloads\certificados-digitais\certificados-digitais", "yamaha.pfx");
                 string path = Environment.GetEnvironmentVariable("CERT");
                 Console.WriteLine("CERTIFICADO: " + path);
-                GSoft.CertificateTool.Program.InstallPfxCertificate(path, "yamaha2020", StoreName.My, StoreLocation.CurrentUser);
 
-                Consumer.DownloadFile();
+                //VERIFICA CERTIFICADO
+                var certificado = ControleCertificados.GetClientCertificate();
 
-                var lib = new ConsultaPLI.Core.Lib.Work();
-                _ = lib.ExecutarAsync();
+                if (certificado == null)
+                {
+                    GSoft.CertificateTool.Program.InstallPfxCertificate(path, "yamaha2020", StoreName.My, StoreLocation.CurrentUser);
+                }
 
-                Publisher.UploadFile();
+                //VERIFICA FILA RABBIT
+                bool download = Consumer.DownloadFile();
+
+                if (download)
+                {
+                    var lib = new ConsultaPLI.Core.Lib.Work();
+                    _ = lib.ExecutarAsync();
+
+                    Publisher.UploadFile();
+                }
 
                 Console.WriteLine("Meu Serviço do Windows sendo executado a cada 10 segundos");
             }
