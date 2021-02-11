@@ -2,7 +2,7 @@
 ## Sistema de automação de consultas do PLI no Siscomex
 ### Log de Alterações
 
-**_commit 35f25701ad8970e12ca8fe6658ba4f2655568b17 (HEAD -> main, origin/main, origin/dev, dev)_** 
+[Build](commit 35f25701ad8970e12ca8fe6658ba4f2655568b17 (HEAD -> main, origin/main, origin/dev, dev)) 
 * Author: lerronf <lerron@outlook.com>
 * Date:   Wed Feb 10 17:47:09 2021 -0400
 
