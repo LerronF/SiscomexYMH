@@ -2,6 +2,18 @@
 ## Sistema de automação de consultas do PLI no Siscomex
 ### Log de Alterações
 
+**_commit d91b711fbc484a6dd274c94703628b11ed5a3767 (HEAD -> dev, origin/dev)_** 
+* Author: lerronf <lerron@outlook.com>
+* Date:   Thu Feb 11 17:44:02 2021 -0400
+
+   * Revis<C3><A3>o e melhorias nas valida<C3><A7><C3><B5>es de download e certificado
+
+**_commit ced8df21ef8ab6a053cbaee24f298e4afb51ef4a_** 
+* Author: lerronf <lerron@outlook.com>
+* Date:   Thu Feb 11 17:29:04 2021 -0400
+
+   * rename certificate
+
 **_commit 35f25701ad8970e12ca8fe6658ba4f2655568b17 (HEAD -> main, origin/main, origin/dev, dev)_** 
 * Author: lerronf <lerron@outlook.com>
 * Date:   Wed Feb 10 17:47:09 2021 -0400
