@@ -24,16 +24,30 @@ namespace Siscomex.Core
         {
             try
             {
-                //string path = Directory.GetCurrentDirectory() + @"\Certificado\yamaha.pfx"; //string.Join(@"\",@"C:\Users\matheus.pinheiro\Downloads\certificados-digitais\certificados-digitais", "yamaha.pfx");
-                string path = Environment.GetEnvironmentVariable("CERT");
-                Console.WriteLine("CERTIFICADO: " + path);
-
+                const string VAR_CERT = "CERT";
+                LogController.RegistrarLog("Iniciar Processo!");
+                
+                string path = Environment.GetEnvironmentVariable(VAR_CERT);
+                if(path != null){
+                    LogController.RegistrarLog("Certificado Carregado: " + path);
+                }else{
+                    LogController.RegistrarLog("Certificado Não foi carregado! Verifique a variavel de ambiente '"+VAR_CERT+"'");
+                }
+                
                 //VERIFICA CERTIFICADO
-                var certificado = ControleCertificados.GetClientCertificate();
-
+                X509Certificate certificado = null;
+                try{
+                    certificado = ControleCertificados.GetClientCertificate();
+                }catch(System.Security.Cryptography.CryptographicException ex){
+                    LogController.RegistrarLog("Certificado ainda não existe!");
+                }catch(Exception ex){
+                    LogController.RegistrarLog("Erro inesperado!" + ex.ToString());
+                }
                 if (certificado == null)
                 {
                     GSoft.CertificateTool.Program.InstallPfxCertificate(path, "yamaha2020", StoreName.My, StoreLocation.CurrentUser);
+                }else{
+                    LogController.RegistrarLog("Certificado já está instalado!");
                 }
 
                 //VERIFICA FILA RABBIT

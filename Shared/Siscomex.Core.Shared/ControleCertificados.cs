@@ -44,8 +44,7 @@ namespace Siscomex.Core.Shared
         public static X509Certificate GetClientCertificate()
         {
             return
-                FindCertificate(StoreLocation.CurrentUser) ??
-                FindCertificate(StoreLocation.LocalMachine);
+                FindCertificate(StoreLocation.CurrentUser);
             X509Certificate FindCertificate(StoreLocation location)
             {
                 X509Store store = new X509Store(location);

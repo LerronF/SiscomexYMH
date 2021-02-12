@@ -1,4 +1,5 @@
-﻿using RabbitMQ.Client;
+﻿using Siscomex.Core.Shared;
+using RabbitMQ.Client;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -13,12 +14,16 @@ namespace Siscomex.Core
             try
             {
                 var horaData = DateTime.Now.ToString().Replace("/", "").Replace(":", "").Replace(" ", "");
-                var aux = CapturaArquivo();
-
+                string aux = null;
+                try{
+                    aux = CapturaArquivo();
+                }catch(Exception ex){
+                    LogController.RegistrarLog("Erro inesperado!" + ex.ToString());
+                }
+                
                 if (aux != "")
                 {
                     string caminhoDownload = Environment.GetEnvironmentVariable("DOWNLOAD");
-                    Console.WriteLine(caminhoDownload);
 
                     if (!System.IO.Directory.Exists(caminhoDownload))
                     {
@@ -62,13 +67,24 @@ namespace Siscomex.Core
                 Password = password,
                 Port = port,
             };
+            LogController.RegistrarLog("Conectando ao rabbit ");
             //Cria a conexão
             IConnection connection = factory.CreateConnection();
-
+            
+            if(connection == null || !connection.IsOpen){
+                LogController.RegistrarLog("Não foi estabelecida a conexão!");
+            }else{
+                LogController.RegistrarLog("Conexão realizada com sucesso!");
+            }
             BasicGetResult data;
             using (var channel = connection.CreateModel())
             {
                 data = channel.BasicGet(queueName, true);
+                if(data == null){
+                    LogController.RegistrarLog("Não há dados na fila");
+                }else{
+                    LogController.RegistrarLog("Há dados na fila");
+                }
             }
 
             return data != null ? System.Text.Encoding.UTF8.GetString(data.Body) : "";

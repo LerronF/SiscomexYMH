@@ -72,7 +72,7 @@ namespace ConsultaPLI.Core.Lib
                             {
 
                                 driver._my.Navigate(_urlSite);
-                                //LogController.RegistrarLog($"Autenticando...");
+                                LogController.RegistrarLog($"Autenticando...");
 
                                 driver._my.Navigate(_urlConsultaPLI);
                                 LogController.RegistrarLog($"Acessando SISCOMEX...");
