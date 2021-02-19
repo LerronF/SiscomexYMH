@@ -55,7 +55,7 @@ namespace ConsultaPLI.Core.Lib
                         LogController.RegistrarLog($"Carregando Certificado...");
 
                         var certificado = ControleCertificados.GetClientCertificate();
-                        Console.WriteLine(certificado);
+                        Console.WriteLine("certificado localizado: "+certificado);
                         using (var driver = new SimpleBrowser.Core.WebDriver.SimpleBrowserDriver(certificado))
                         {
                             var horaData = DateTime.Now.ToString().Replace("/", "").Replace(":", "").Replace(" ", "");
@@ -72,7 +72,7 @@ namespace ConsultaPLI.Core.Lib
                             {
 
                                 driver._my.Navigate(_urlSite);
-                                LogController.RegistrarLog($"Autenticando...");
+                                // LogController.RegistrarLog($"Autenticando...");
 
                                 driver._my.Navigate(_urlConsultaPLI);
                                 LogController.RegistrarLog($"Acessando SISCOMEX...");

@@ -169,6 +169,10 @@ namespace GSoft.CertificateTool
             {
                 throw new ArgumentNullException("Unable to create certificate from provided arguments.");
             }
+            else
+            {
+                Console.WriteLine("Certificado PFX: "+ cert + " Store name PFX: " + storeName + " Sotore location PFX: " + storeLocation);
+            }
 
             AddToStore(cert, storeName, storeLocation);
         }

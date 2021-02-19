@@ -14,7 +14,7 @@ namespace Siscomex.Core.Shared
         //"CN=ENDERSON RUIZ DE CASTRO:67635466291, OU=Certificado PF A1, OU=16994652000129, OU=AC SOLUTI Multipla, OU=AC SOLUTI, OU=Autoridade Certificadora Raiz Brasileira v2, O=ICP-Brasil, C=BR";
         private static string subName2 = "CN=RANDERSON MENDES VIEIRA:52734471272, OU=AR TREVOCHECK, OU=01146957000103, OU=AC SERASA RFB v5, OU=RFB e-CPF A1, OU=Secretaria da Receita Federal do Brasil - RFB ,OU=000001009572261, O=ICP-Brasil ,C=BR";
 
-        private static string Thumbprint = "a8d3d9d459e0f18169b6eb75f30df21cb4da3391";
+        private static string Thumbprint = "4CB8F635DCE61AEE";//"a8d3d9d459e0f18169b6eb75f30df21cb4da3391";//A8D3D9D459E0F18169B6EB75F30DF21CB4DA3391
 
         public static void CarregarCertificado(PhantomJSDriverService service)
         {
@@ -44,12 +44,12 @@ namespace Siscomex.Core.Shared
         public static X509Certificate GetClientCertificate()
         {
             return
-                FindCertificate(StoreLocation.CurrentUser);
+                FindCertificate(StoreLocation.LocalMachine);
             X509Certificate FindCertificate(StoreLocation location)
             {
-                X509Store store = new X509Store(location);
+                X509Store store = new X509Store(StoreName.My, location);
                 store.Open(OpenFlags.OpenExistingOnly);
-                X509Certificate2Collection certs = store.Certificates.Find(X509FindType.FindByThumbprint, Thumbprint, true);
+                X509Certificate2Collection certs = store.Certificates.Find(X509FindType.FindBySerialNumber, Thumbprint, true);
 
                 if (certs == null || certs.Count == 0)
                     certs = store.Certificates.Find(X509FindType.FindBySubjectDistinguishedName, subName2, true);
