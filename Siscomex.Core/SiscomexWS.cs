@@ -55,15 +55,12 @@ namespace Siscomex.Core
                 if (certificado == null)
                 {
                     Console.WriteLine("Certificado instalando... " +  path);
-                    GSoft.CertificateTool.Program.InstallPfxCertificate(path, "yamaha2020", StoreName.My, StoreLocation.LocalMachine);
+                    GSoft.CertificateTool.Program.InstallPfxCertificate(path, "yamaha2020", StoreName.My, StoreLocation.CurrentUser);
                 }
                 else
                 {
                     LogController.RegistrarLog("Certificado já está instalado!");
                 }
-
-                ImprimirTodosOsCertificados();
-
 
                 certificado = ControleCertificados.GetClientCertificate();
                 Console.WriteLine("Certificado instalado! " + certificado);
